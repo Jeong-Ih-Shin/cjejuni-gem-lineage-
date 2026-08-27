@@ -88,6 +88,7 @@ def save_fig(fig, basename):
     """Save figure as both PNG (300 dpi) and SVG."""
     fig.savefig(FIG_DIR / f'{basename}.png', dpi=300, bbox_inches='tight')
     fig.savefig(FIG_DIR / f'{basename}.svg', bbox_inches='tight')
+    fig.savefig(FIG_DIR / f'{basename}.tiff', dpi=300, bbox_inches='tight', pil_kwargs={'compression': 'tiff_lzw'})
     print(f'  Saved: {basename}.png + {basename}.svg')
 
 

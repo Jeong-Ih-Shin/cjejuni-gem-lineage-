@@ -52,8 +52,8 @@ MEDIA = [
 ]
 
 LINEAGES = [
-    ('ST-443 complex', 'ST-443', '#e67e22'),  # orange
-    ('ST-658 complex', 'ST-658', '#27ae60'),  # green
+    ('ST-443 complex', 'CC-443', '#e67e22'),  # orange  (1st col = data key, keep; 2nd = display)
+    ('ST-658 complex', 'CC-658', '#27ae60'),  # green
 ]
 
 FIG_W = 1.67    # width per panel (final approved)
@@ -177,6 +177,7 @@ def plot_figure4(df, stat_df):
     plt.tight_layout()
     fig.savefig(FIG_PNG, dpi=300, bbox_inches='tight')
     fig.savefig(FIG_SVG, bbox_inches='tight')
+    fig.savefig(FIGURES_DIR / 'Figure4_st443_vs_st658.tiff', dpi=300, bbox_inches='tight', pil_kwargs={'compression': 'tiff_lzw'})
     print(f"✓ saved {FIG_PNG}")
     print(f"✓ saved {FIG_SVG}")
     plt.close(fig)

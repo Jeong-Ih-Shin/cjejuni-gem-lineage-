@@ -26,6 +26,11 @@ apply_style()
 HIGHLIGHT = NPG['green']   # teal — distinguishes Fig 2 from Fig 1 (red)
 
 
+def cc_label(cc_full):
+    """Data string 'ST-21 complex' -> display label 'CC-21'."""
+    return cc_full.replace(" complex", "").replace("ST-", "CC-")
+
+
 def main():
     wb = load_workbook(DATA_DIR / 'metadata.xlsx', read_only=True)
     ws = wb['Cluster_assignments']
@@ -81,38 +86,21 @@ def main():
     print(f'Mann-Whitney p = {p:.2e}')
 
     cc_counts = z_df['CC'].value_counts()
-    coherent = ['ST-21 complex', 'ST-443 complex', 'ST-658 complex',
-                'ST-607 complex', 'ST-45 complex', 'ST-354 complex']
-    non_coherent = ['ST-464 complex', 'ST-48 complex', 'ST-5229 complex']
+    # Coherent = within-CC < between-CC (5 CCs); non-coherent = within > between (4 CCs).
+    # Corrected: ST-354 is non-coherent (within 4.68 > between 3.88); ST-45 is coherent.
+    coherent = ['ST-21 complex', 'ST-443 complex', 'ST-45 complex',
+                'ST-607 complex', 'ST-658 complex']
+    non_coherent = ['ST-354 complex', 'ST-464 complex',
+                    'ST-5229 complex', 'ST-48 complex']
     ordered = coherent + non_coherent
 
+    # PANEL SWAP: A = per-CC validation (left), B = heatmap (right)
     fig, axes = plt.subplots(1, 2, figsize=(6.69, 3.5),
-                              gridspec_kw={'width_ratios': [1.3, 1.0]})
-    plt.subplots_adjust(top=0.86, bottom=0.18, left=0.05, right=0.97, wspace=0.5)
+                              gridspec_kw={'width_ratios': [1.0, 1.3]})
+    plt.subplots_adjust(top=0.86, bottom=0.18, left=0.08, right=0.97, wspace=0.5)
 
-
-    # B — heatmap
+    # A — per-CC bars (validation)  [now axes[0], left]
     ax = axes[0]
-    ax.grid(False)
-    heatmap_data, cc_labels = [], []
-    for c in ordered:
-        s = z_df[z_df.CC == c]
-        if len(s) == 0:
-            continue
-        heatmap_data.append(s[CHEMICALS].mean().values)
-        cc_labels.append(f'{c.replace(" complex","")} (n={len(s)})')
-    cmap = LinearSegmentedColormap.from_list('npg_div', [SEM['down'], '#FFFFFF', SEM['up']], N=256)
-    sns.heatmap(np.array(heatmap_data), annot=True, fmt='+.2f', cmap=cmap,
-                center=0, vmin=-1.5, vmax=1.5,
-                xticklabels=CHEMICALS, yticklabels=cc_labels, ax=ax,
-                cbar_kws={'label': 'Mean z-score'}, linewidths=1.5, linecolor='white',
-                annot_kws={'color': SEM['text'], 'fontsize': 7, 'fontweight': 'bold'})
-    n_coh = sum(1 for c in coherent if c in cc_counts.index)
-    ax.set_title('A', loc='left', x=-0.30, fontsize=11, fontweight='bold')
-    ax.tick_params(axis='x', rotation=30)
-
-    # C — per-CC bars
-    ax = axes[1]
     per_cc = []
     for c in cc_counts[cc_counts >= 2].index:
         if pd.isna(c) or c is None:
@@ -123,7 +111,7 @@ def main():
             continue
         within = pdist(in_cc).mean()
         between = cdist(in_cc, out_cc).mean()
-        per_cc.append({'cc': f'{c.replace(" complex","")} (n={cc_counts[c]})',
+        per_cc.append({'cc': f'{cc_label(c)} (n={cc_counts[c]})',
                        'within': within, 'between': between, 'n': cc_counts[c]})
     per_cc_df = pd.DataFrame(per_cc).sort_values('n', ascending=True)
     y_pos = np.arange(len(per_cc_df))
@@ -134,11 +122,30 @@ def main():
     ax.set_yticks(y_pos)
     ax.set_yticklabels(per_cc_df['cc'])
     ax.set_xlabel('Mean Euclidean distance')
-    ax.set_title('B', loc='left', x=-0.30, fontsize=11, fontweight='bold')
+    ax.set_title('A', loc='left', x=-0.30, fontsize=11, fontweight='bold')
     ax.legend(frameon=False, loc='lower center', bbox_to_anchor=(0.5, 1.02),
               ncol=2, fontsize=7)
     ax.grid(axis='x', alpha=0.5, color=SEM['grid'], linewidth=0.5)
     ax.set_xlim(0, max(per_cc_df['between'].max(), per_cc_df['within'].max()) * 1.10)
+
+    # B — heatmap  [now axes[1], right]
+    ax = axes[1]
+    ax.grid(False)
+    heatmap_data, cc_labels = [], []
+    for c in ordered:
+        s = z_df[z_df.CC == c]
+        if len(s) == 0:
+            continue
+        heatmap_data.append(s[CHEMICALS].mean().values)
+        cc_labels.append(f'{cc_label(c)} (n={len(s)})')
+    cmap = LinearSegmentedColormap.from_list('npg_div', [SEM['down'], '#FFFFFF', SEM['up']], N=256)
+    sns.heatmap(np.array(heatmap_data), annot=True, fmt='+.2f', cmap=cmap,
+                center=0, vmin=-1.5, vmax=1.5,
+                xticklabels=CHEMICALS, yticklabels=cc_labels, ax=ax,
+                cbar_kws={'label': 'Mean z-score'}, linewidths=1.5, linecolor='white',
+                annot_kws={'color': SEM['text'], 'fontsize': 7, 'fontweight': 'bold'})
+    ax.set_title('B', loc='left', x=-0.30, fontsize=11, fontweight='bold')
+    ax.tick_params(axis='x', rotation=30)
 
     save_fig(fig, 'Figure2_invitro_profiles')
     plt.close(fig)

@@ -1,0 +1,2314 @@
+reaction,name
+DM_cpd01042_c0,Sink needed for p-cresol
+EX_cpd00001_e0,H2O-e0 Exchange
+EX_cpd00003_e0,NAD-e0 Exchange
+EX_cpd00007_e0,O2-e0 Exchange
+EX_cpd00009_e0,Phosphate-e0 Exchange
+EX_cpd00010_e0,CoA-e0 Exchange
+EX_cpd00011_e0,CO2-e0 Exchange
+EX_cpd00013_e0,NH3-e0 Exchange
+EX_cpd00020_e0,Pyruvate-e0 Exchange
+EX_cpd00023_e0,L-Glutamate-e0 Exchange
+EX_cpd00024_e0,2-Oxoglutarate-e0 Exchange
+EX_cpd00025_e0,H2O2-e0 Exchange
+EX_cpd00027_e0,D-Glucose-e0 Exchange
+EX_cpd00028_e0,Heme-e0 Exchange
+EX_cpd00029_e0,Acetate-e0 Exchange
+EX_cpd00030_e0,Mn2+ Exchange
+EX_cpd00033_e0,Glycine-e0 Exchange
+EX_cpd00034_e0,Zn2+-e0 Exchange
+EX_cpd00035_e0,L-Alanine-e0 Exchange
+EX_cpd00036_e0,Succinate-e0 Exchange
+EX_cpd00039_e0,L-Lysine-e0 Exchange
+EX_cpd00041_e0,L-Aspartate-e0 Exchange
+EX_cpd00047_e0,Formate-e0 Exchange
+EX_cpd00048_e0,Sulfate-e0 Exchange
+EX_cpd00051_e0,L-Arginine-e0 Exchange
+EX_cpd00053_e0,L-Glutamine-e0 Exchange
+EX_cpd00054_e0,L-Serine-e0 Exchange
+EX_cpd00055_e0,Formaldehyde-e0 Exchange
+EX_cpd00058_e0,Cu2+-e0 Exchange
+EX_cpd00060_e0,L-Methionine-e0 Exchange
+EX_cpd00063_e0,Ca2+-e0 Exchange
+EX_cpd00064_e0,Ornithine-e0 Exchange
+EX_cpd00067_e0,H+-e0 Exchange
+EX_cpd00069_e0,L-Tyrosine Exchange
+EX_cpd00071_e0,Acetaldehyde-e0 Exchange
+EX_cpd00073_e0,Urea-e0 Exchange
+EX_cpd00080_e0,Glycerol-3-phosphate-e0 Exchange
+EX_cpd00082_e0,D-Fructose-e0 Exchange
+EX_cpd00084_e0,L-Cysteine-e0 Exchange
+EX_cpd00098_e0,Choline-e0 Exchange
+EX_cpd00099_e0,Cl--e0 Exchange
+EX_cpd00100_e0,Glycerol-e0 Exchange
+EX_cpd00105_e0,D-Ribose-e0 Exchange
+EX_cpd00106_e0,Fumarate-e0 Exchange
+EX_cpd00107_e0,L-Leucine-e0 Exchange
+EX_cpd00108_e0,Galactose-e0 Exchange
+EX_cpd00116_e0,Methanol-e0 Exchange
+EX_cpd00118_e0,Putrescine-e0 Exchange
+EX_cpd00119_e0,L-Histidine-e0 Exchange
+EX_cpd00129_e0,L-Proline-e0 Exchange
+EX_cpd00130_e0,L-Malate-e0 Exchange
+EX_cpd00132_e0,L-Asparagine-e0 Exchange
+EX_cpd00137_e0,Citrate-e0 Exchange
+EX_cpd00138_e0,D-Mannose-e0 Exchange
+EX_cpd00139_e0,Glycolate-e0 Exchange
+EX_cpd00141_e0,Propionate-e0 Exchange
+EX_cpd00149_e0,Co2+-e0 Exchange
+EX_cpd00150_e0,HCN-e0 Exchange
+EX_cpd00153_e0,Benzoate-e0 Exchange
+EX_cpd00154_e0,Xylose-e0 Exchange
+EX_cpd00156_e0,L-Valine-e0 Exchange
+EX_cpd00159_e0,L-Lactate-e0 Exchange
+EX_cpd00161_e0,L-Threonine-e0 Exchange
+EX_cpd00178_e0,Acetone-e0 Exchange
+EX_cpd00179_e0,Maltose-e0 Exchange
+EX_cpd00180_e0,Oxalate-e0 Exchange
+EX_cpd00182_e0,Adenosine-e0 Exchange
+EX_cpd00185_e0,D-Arabinose-e0 Exchange
+EX_cpd00204_e0,CO-e0 Exchange
+EX_cpd00205_e0,K+-e0 Exchange
+EX_cpd00208_e0,LACT-e0 Exchange
+EX_cpd00209_e0,Nitrate-e0 Exchange
+EX_cpd00210_e0,Taurine-e0 Exchange
+EX_cpd00214_e0,Palmitate-e0 Exchange
+EX_cpd00220_e0,Riboflavin Exchange
+EX_cpd00221_e0,D-Lactate-e0 Exchange
+EX_cpd00224_e0,L-Arabinose-e0 Exchange
+EX_cpd00239_e0,H2S-e0 Exchange
+EX_cpd00244_e0,Ni2+-e0 Exchange
+EX_cpd00246_e0,Inosine-e0 Exchange
+EX_cpd00254_e0,Mg Exchange
+EX_cpd00264_e0,Spermidine-e0 Exchange
+EX_cpd00276_e0,GLUM-e0 Exchange
+EX_cpd00281_e0,GABA-e0 Exchange
+EX_cpd00305_e0,Thiamin-e0 Exchange
+EX_cpd00311_e0,Guanosine-e0 Exchange
+EX_cpd00314_e0,D-Mannitol-e0 Exchange
+EX_cpd00322_e0,L-Isoleucine-e0 Exchange
+EX_cpd00324_e0,MTTL-e0 Exchange
+EX_cpd00359_e0,indol-e0 Exchange
+EX_cpd00363_e0,Ethanol-e0 Exchange
+EX_cpd00371_e0,Propanal-e0 Exchange
+EX_cpd00380_e0,Itaconate-e0 Exchange
+EX_cpd00418_e0,NO-e0 Exchange
+EX_cpd00448_e0,D-Glyceraldehyde-e0 Exchange
+EX_cpd00450_e0,Methyl sulfide-e0 Exchange
+EX_cpd00453_e0,"1,2-Propanediol-e0 Exchange"
+EX_cpd00528_e0,N2-e0 Exchange
+EX_cpd00531_e0,Hg2+-e0 Exchange
+EX_cpd00540_e0,BET-e0 Exchange
+EX_cpd00609_e0,D-Glucarate-e0 Exchange
+EX_cpd00644_e0,PAN-e0 Exchange
+EX_cpd00659_e0,Nitrous oxide-e0 Exchange
+EX_cpd00751_e0,L-Fucose-e0 Exchange
+EX_cpd00794_e0,TRHL-e0 Exchange
+EX_cpd00811_e0,(CH3)3NO-e0 Exchange
+EX_cpd00908_e0,Glycerophosphoethanolamine-e0 Exchange
+EX_cpd00971_e0,Na+-e0 Exchange
+EX_cpd01012_e0,Cd2+-e0 Exchange
+EX_cpd01024_e0,Methane-e0 Exchange
+EX_cpd01048_e0,Arsenate-e0 Exchange
+EX_cpd01080_e0,ocdca-e0 Exchange
+EX_cpd01107_e0,Decanoate-e0 Exchange
+EX_cpd01113_e0,Hexanoate-e0 Exchange
+EX_cpd01132_e0,Puromycin-e0 Exchange
+EX_cpd01133_e0,Stachyose-e0 Exchange
+EX_cpd01262_e0,Amylotriose-e0 Exchange
+EX_cpd01354_e0,beta-Lactose-e0 Exchange
+EX_cpd01399_e0,Maltotetraose-e0 Exchange
+EX_cpd01618_e0,"1,3-Propanediol-e0 Exchange"
+EX_cpd01741_e0,ddca-e0 Exchange
+EX_cpd01861_e0,"(R)-1,2-Propanediol-e0 Exchange"
+EX_cpd01981_e0,5-Methylthio-D-ribose-e0 Exchange
+EX_cpd02090_e0,Glycerophosphoglycerol-e0 Exchange
+EX_cpd02733_e0,Deoxycholate-e0 Exchange
+EX_cpd03587_e0,kdo2-lipid a-e0 Exchange
+EX_cpd03662_e0,n-Butanol-e0 Exchange
+EX_cpd03808_e0,Lacto-N-biose-e0 Exchange
+EX_cpd03846_e0,octanoate-e0 Exchange
+EX_cpd03847_e0,Myristic acid-e0 Exchange
+EX_cpd04097_e0,Pb-e0 Exchange
+EX_cpd04098_e0,Arsenite-e0 Exchange
+EX_cpd05235_e0,tetracosanoate-e0 Exchange
+EX_cpd08021_e0,DMSO-e0 Exchange
+EX_cpd10515_e0,Fe2+-e0 Exchange
+EX_cpd10516_e0,fe3-e0 Exchange
+EX_cpd11416_c0,EX cpd11416 c0
+EX_cpd11422_e0,"1,2-diacyl-sn-glycerol 3-phosphate-e0 Exchange"
+EX_cpd11451_e0,mql7-e0 Exchange
+EX_cpd11455_e0,ps_BS-e0 Exchange
+EX_cpd11456_e0,Phosphatidylethanolamine-e0 Exchange
+EX_cpd11464_e0,Butyryl-ACP-e0 Exchange
+EX_cpd11494_e0,Acetyl-ACP-e0 Exchange
+EX_cpd11574_e0,Molybdate-e0 Exchange
+EX_cpd11606_e0,Menaquinone 7-e0 Exchange
+EX_cpd11632_e0,hn-e0 Exchange
+EX_cpd11640_e0,H2-e0 Exchange
+EX_cpd11822_e0,1-Phosphatidyl-myo-inositol-e0 Exchange
+EX_cpd11976_e0,Maltodextrin-e0 Exchange
+EX_cpd15225_e0,Ceramide-2 Phytosphingosine-e0 Exchange
+EX_cpd15237_e0,hexadecenoate-e0 Exchange
+EX_cpd15240_e0,hexacosanoate-e0 Exchange
+EX_cpd15269_e0,octadecenoate-e0 Exchange
+EX_cpd15298_e0,tetradecenoate-e0 Exchange
+EX_cpd15494_e0,Maltoheptaose-e0 Exchange
+EX_cpd17026_e0,methymenaquinol 7-e0 Exchange
+EX_cpd17027_e0,methylmenaquinone 7-e0 Exchange
+EX_cpd90003_e0,"starch (n=27, 3xalpha1-6, 23xalpha1-4)-e0 Exchange"
+EX_cpd90004_e0,"starch (n=19, 3xalpha1-6, 15xalpha1-4)-e0 Exchange"
+EX_cpd90005_e0,Maltooctaose-e0 Exchange
+EX_cpd90006_e0,Maltoundecaose-e0 Exchange
+EX_cpd90007_e0,Maltohexaose-e0 Exchange
+EX_cpd90008_e0,Maltotridecaose-e0 Exchange
+EX_cpd90020_e0,Cellulose-e0 Exchange
+EX_cpd90021_e0,Xylan-b-1-4-e0 Exchange
+EX_cpd90022_e0,Xylooligo-b-1-4-e0 Exchange
+bio1,Bacterial Gram-negative biomass reaction
+rxn00001_c0,diphosphate phosphohydrolase
+rxn00003_c0,pyruvate:pyruvate acetaldehydetransferase (decarboxylating)
+rxn00006_c0,hydrogen-peroxide:hydrogen-peroxide oxidoreductase
+rxn00010_c0,glyoxylate carboxy-lyase (dimerizing; tartronate-semialdehyde-forming)
+rxn00011_c0,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating)
+rxn00012_c0,sucrose:sucrose 1'-beta-D-fructosyltransferase
+rxn00019_c0,2-Nitropropane:oxygen 2-oxidoreductase
+rxn00023_c0,thiosulfate:ferricytochrome-c oxidoreductase
+rxn00029_c0,5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing; porphobilinogen-forming)
+rxn00032_c0,Choline:oxygen 1-oxidoreductase
+rxn00048_c0,"6,7-Dimethyl-8-(1-D-ribityl)lumazine:6,7-dimethyl-8-(1-D-ribityl)lumazine 2,3-butanediyltransferase"
+rxn00058_c0,Ferrocytochrome-c:oxygen oxidoreductase
+rxn00060_c0,porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)
+rxn00062_c0,ATP phosphohydrolase
+rxn00068_c0,Fe2+:NAD+ oxidoreductase
+rxn00069_c0,L-glutamate:NAD+ oxidoreductase (transaminating)
+rxn00070_c0,glutathione:NAD+ oxidoreductase
+rxn00076_c0,NAD+ phosphohydrolase
+rxn00077_c0,ATP:NAD+ 2'-phosphotransferase
+rxn00078_c0,ATP:NADH 2'-phosphotransferase
+rxn00085_c0,L-Glutamate:NADP+ oxidoreductase (transaminating)
+rxn00086_c0,glutathione:NADP+ oxidoreductase
+rxn00088_c0,NADP+ 2'-phosphohydrolase
+rxn00097_c0,ATP:AMP phosphotransferase
+rxn00100_c0,ATP:dephospho-CoA 3'-phosphotransferase
+rxn00102_c0,carbonate hydro-lyase (carbon-dioxide-forming)
+rxn00104_c0,polyphosphate kinase
+rxn00105_c0,ATP:nicotinamide-nucleotide adenylyltransferase
+rxn00106_c0,Triphosphate phosphohydrolase
+rxn00107_c0,ATP:2'-deoxy-5-hydroxymethylcytidine-5'-diphosphate phosphotransferase
+rxn00113_c0,"Carbon-dioxide:ammonia ligase (ADP-forming,carbamate-phosphorylating)"
+rxn00117_c0,ATP:UDP phosphotransferase
+rxn00119_c0,ATP:UMP phosphotransferase
+rxn00120_c0,UTP phosphohydrolase
+rxn00121_c0,FAD nucleotidohydrolase
+rxn00122_c0,ATP:FMN adenylyltransferase
+rxn00126_c0,ATP:L-methionine S-adenosyltransferase
+rxn00132_c0,Adenosine 5'-monophosphate phosphohydrolase
+rxn00137_c0,"Adenosine 3',5'-bisphosphate 3'-phosphohydrolase"
+rxn00138_c0,deamido-NAD+:ammonia ligase (AMP-forming)
+rxn00139_c0,AMP:diphosphate phospho-D-ribosyltransferase
+rxn00141_c0,S-Adenosyl-L-homocysteine hydrolase
+rxn00143_c0,S-Adenosyl-L-homocysteine homocysteinylribohydrolase
+rxn00145_c0,(S)-Lactate:ferricytochrome-c 2-oxidoreductase
+rxn00146_c0,(R)-Lactate:ferricytochrome-c 2-oxidoreductase
+rxn00147_c0,"ATP:pyruvate,water phosphotransferase"
+rxn00148_c0,ATP:pyruvate 2-O-phosphotransferase
+rxn00149_c0,pyruvaldehyde:NAD+ oxidoreductase
+rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating)
+rxn00159_c0,(S)-malate:NAD+ oxidoreductase (decarboxylating)
+rxn00161_c0,(S)-Malate:NADP+ oxidoreductase(oxaloacetate-decarboxylating)
+rxn00162_c0,oxaloacetate carboxy-lyase (pyruvate-forming)
+rxn00165_c0,L-serine ammonia-lyase
+rxn00173_c0,acetyl-CoA:phosphate acetyltransferase
+rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming)
+rxn00175_c0,Acetate:CoA ligase (AMP-forming)
+rxn00176_c0,acetyl adenylate:CoA acetyltransferase
+rxn00179_c0,ATP:L-glutamate 5-phosphotransferase
+rxn00183_c0,L-Glutamate 5-semialdehyde:NAD+ oxidoreductase
+rxn00184_c0,L-Glutamate:NADP+ oxidoreductase (deaminating)
+rxn00186_c0,5-oxo-L-proline amidohydrolase (ATP-hydrolysing)
+rxn00187_c0,L-Glutamate:ammonia ligase (ADP-forming)
+rxn00189_c0,L-Glutamine amidohydrolase
+rxn00191_c0,L-Alanine:2-oxoglutarate aminotransferase
+rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase
+rxn00193_c0,glutamate racemase
+rxn00196_c0,"2,5-dioxopentanoate:NADP+ 5-oxidoreductase"
+rxn00198_c0,Isocitrate:NADP+ oxidoreductase (decarboxylating)
+rxn00199_c0,oxalosuccinate carboxy-lyase (2-oxoglutarate-forming)
+rxn00202_c0,"acetyl-CoA:2-oxoglutarate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)"
+rxn00203_c0,2-Oxoglutarate carboxy-lyase
+rxn00204_c0,oxalate:oxygen oxidoreductase
+rxn00206_c0,superoxide:superoxide oxidoreductase
+rxn00208_c0,Pyridoxamine-5'-phosphate:oxygen oxidoreductase (deaminating)
+rxn00209_c0,Pyridoxine 5-phosphate:oxygen oxidoreductase
+rxn00211_c0,UDP-glucose:NAD+ 6-oxidoreductase
+rxn00212_c0,UDP-glucose glucophosphohydrolase
+rxn00213_c0,UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+rxn00214_c0,UDP-glucose 4-epimerase
+rxn00215_c0,"UDP-glucose 4,6-hydro-lyase (UDP-4-dehydro-6-deoxy-D-glucose-forming)"
+rxn00216_c0,ATP:D-glucose 6-phosphotransferase
+rxn00224_c0,protoheme ferro-lyase (protoporphyrin-forming)
+rxn00225_c0,ATP:acetate phosphotransferase
+rxn00226_c0,ATP:acetate adenylyltransferase
+rxn00237_c0,ATP:GDP phosphotransferase
+rxn00238_c0,ATP:nucleoside-diphosphate phosphotransferase
+rxn00239_c0,ATP:GMP phosphotransferase
+rxn00241_c0,GTP phosphohydrolase
+rxn00242_c0,"guanosine-3',5'-bis(diphosphate) 3'-diphosphohydrolase"
+rxn00247_c0,ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruvate-forming)
+rxn00248_c0,(S)-malate:NAD+ oxidoreductase
+rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)
+rxn00257_c0,"acetyl-CoA:oxaloacetate C-acetyltransferase [(pro-S)-carboxymethyl-forming, ADP-phosphorylating]"
+rxn00260_c0,L-Aspartate:2-oxoglutarate aminotransferase
+rxn00262_c0,L-Aspartic acid:oxygen oxidoreductase (deaminating)
+rxn00264_c0,(S)-Malate:oxygen oxidoreductase
+rxn00270_c0,S-Adenosyl-L-methionine:glycine N-methyltransferase
+rxn00272_c0,L-Alanine:glyoxylate aminotransferase
+rxn00274_c0,Acetyl-CoA:glycine C-acetyltransferase
+rxn00283_c0,alanine racemase
+rxn00285_c0,Succinate:CoA ligase (ADP-forming)
+rxn00292_c0,UDP-N-acetyl-D-glucosamine 2-epimerase
+rxn00293_c0,UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase
+rxn00295_c0,UDP-N-acetyl-D-glucosamine 4-epimerase
+rxn00297_c0,UDP-N-acetyl-D-glucosamine 2-epimerase
+rxn00299_c0,"GTP 7,8-8,9-dihydrolase"
+rxn00300_c0,"GTP 7,8-8,9-dihydrolase (diphosphate-forming)"
+rxn00301_c0,GTP diphosphohydrolase (diphosphate-forming)
+rxn00302_c0,"GTP 8,9-hydrolase"
+rxn00303_c0,ATP:GTP 3'-diphosphotransferase
+rxn00304_c0,GTP:pyruvate 2-O-phosphotransferase
+rxn00306_c0,Succinate:CoA ligase (GDP-forming)
+rxn00313_c0,"meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming)"
+rxn00317_c0,L-Lysine:2-oxoglutarate 6-aminotransferase
+rxn00320_c0,lysine racemase
+rxn00322_c0,L-lysine carboxy-lyase (cadaverine-forming)
+rxn00324_c0,glycolate:NADP+ oxidoreductase
+rxn00326_c0,Glyoxylate:NADP+ oxidoreductase (CoA-oxalylating)
+rxn00337_c0,ATP:L-aspartate 4-phosphotransferase
+rxn00338_c0,L-aspartate:oxygen oxidoreductase
+rxn00342_c0,L-Asparagine amidohydrolase
+rxn00346_c0,L-aspartate 1-carboxy-lyase (beta-alanine-forming)
+rxn00347_c0,L-Aspartate ammonia-lyase
+rxn00350_c0,glutathione gamma-glutamylaminopeptidase
+rxn00351_c0,gamma-L-glutamyl-L-cysteine:glycine ligase (ADP-forming)
+rxn00355_c0,UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+rxn00358_c0,UDP-D-galactopyranose furanomutase
+rxn00359_c0,3'-phosphoadenylyl-sulfate sulfohydrolase
+rxn00360_c0,3'-Phospho-5'-adenylyl sulfate 3'-phosphohydrolase
+rxn00361_c0,ATP:adenylylsulfate 3'-phosphotransferase
+rxn00363_c0,Cytidine-5'-monophosphate phosphohydrolase
+rxn00364_c0,ATP:CMP phosphotransferase
+rxn00379_c0,ATP:sulfate adenylyltransferase
+rxn00380_c0,ADP:sulfate adenylyltransferase
+rxn00383_c0,Sulfite:oxygen oxidoreductase
+rxn00391_c0,riboflavin-5-phosphate phosphohydrolase (acid optimum)
+rxn00392_c0,ATP:riboflavin 5'-phosphotransferase
+rxn00394_c0,L-Arginine amidinohydrolase
+rxn00401_c0,L-Arginine:oxygen 2-oxidoreductase (decarboxylating)
+rxn00405_c0,L-arginine carboxy-lyase (agmatine-forming)
+rxn00407_c0,CTP aminohydrolase
+rxn00408_c0,CTP phosphohydrolase
+rxn00409_c0,ATP:CDP phosphotransferase
+rxn00410_c0,UTP:ammonia ligase (ADP-forming)
+rxn00411_c0,CTP:pyruvate 2-O-phosphotransferase
+rxn00412_c0,UTP:L-glutamine amido-ligase (ADP-forming)
+rxn00414_c0,"hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)"
+rxn00420_c0,O-phospho-L-serine phosphohydrolase
+rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase
+rxn00425_c0,serine racemase
+rxn00426_c0,L-Serine hydro-lyase
+rxn00427_c0,methanol:hydrogen-peroxide oxidoreductase
+rxn00429_c0,Formaldehyde:NAD+ oxidoreductase
+rxn00430_c0,methanol:NAD+ oxidoreductase
+rxn00436_c0,Thiamin diphosphate phosphohydrolase
+rxn00438_c0,ATP:thiamin-phosphate phosphotransferase
+rxn00442_c0,alpha-ketoglutarate decarboxylase
+rxn00444_c0,L-ascorbate:hydrogen-peroxide oxidoreductase
+rxn00449_c0,R00647
+rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase
+rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming)
+rxn00459_c0,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)
+rxn00460_c0,UTP:pyruvate 2-O-phosphotransferase
+rxn00461_c0,Phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine 1-carboxyvinyl-transferase
+rxn00462_c0,"phosphoenolpyruvate 2,3-phosphonomutase"
+rxn00463_c0,Uridine triphosphate pyrophosphohydrolase
+rxn00470_c0,L-ornithine carboxy-lyase (putrescine-forming)
+rxn00472_c0,ornithine racemase
+rxn00474_c0,L-serine hydro-lyase (adding indole; L-tryptophan-forming)
+rxn00483_c0,L-Tryptophan:2-oxoglutarate aminotransferase
+rxn00490_c0,L-arogenate hydro-lyase (decarboxylating; L-phenylalanine-forming)
+rxn00493_c0,L-Phenylalanine:2-oxoglutarate aminotransferase
+rxn00499_c0,(S)-Lactate:NAD+ oxidoreductase
+rxn00500_c0,(R)-Lactate:NAD+ oxidoreductase
+rxn00503_c0,(S)-1-pyrroline-5-carboxylate:NAD+ oxidoreductase
+rxn00504_c0,(S)-1-pyrroline-5-carboxylate:NADP+ oxidoreductase
+rxn00505_c0,Isocitrate:NAD+ oxidoreductase (decarboxylating)
+rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase
+rxn00507_c0,Acetaldehyde:NADP+ oxidoreductase
+rxn00508_c0,Succinate-semialdehyde:NAD+ oxidoreductase
+rxn00509_c0,Succinate-semialdehyde:NADP+ oxidoreductase
+rxn00510_c0,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-forming)"
+rxn00511_c0,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase (L-lysine-forming)"
+rxn00512_c0,Glycolate:NAD+ oxidoreductase
+rxn00513_c0,ITP phosphohydrolase
+rxn00514_c0,Inosine 5'-triphosphate pyrophosphohydrolase
+rxn00515_c0,ATP:IDP phosphotransferase
+rxn00517_c0,ITP:pyruvate 2-O-phosphotransferase
+rxn00520_c0,Succinate:CoA ligase (IDP-forming)
+rxn00526_c0,L-arogenate:NADP+ oxidoreductase
+rxn00527_c0,L-tyrosine:2-oxoglutarate aminotransferase
+rxn00532_c0,3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating)
+rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+rxn00534_c0,Acetyl-CoA:malonate CoA-transferase
+rxn00536_c0,Ethanol:NADP+ oxidoreductase
+rxn00537_c0,2-Phosphonoacetaldehyde phosphonohydrolase
+rxn00538_c0,ethanolamine-phosphate phosphate-lyase (deaminating; acetaldehyde-forming)
+rxn00539_c0,ethanolamine ammonia-lyase (acetaldehyde-forming)
+rxn00540_c0,4-hydroxy-2-oxopentanoate pyruvate-lyase (acetaldehyde-forming)
+rxn00541_c0,L-threonine acetaldehyde-lyase (glycine-forming)
+rxn00543_c0,ethanol:NAD+ oxidoreductase
+rxn00545_c0,ATP:D-fructose-6-phosphate 1-phosphotransferase
+rxn00546_c0,D-Mannitol-1-phosphate:NAD+ 5-oxidoreductase
+rxn00549_c0,"D-Fructose-1,6-bisphosphate 1-phosphohydrolase"
+rxn00552_c0,D-glucosamine-6-phosphate aminohydrolase (ketol isomerizing)
+rxn00554_c0,CTP:D-fructose-6-phosphate 1-phosphotransferase
+rxn00555_c0,L-glutamine:D-fructose-6-phosphate isomerase (deaminating)
+rxn00556_c0,UTP:D-fructose-6-phosphate 1-phosphotransferase
+rxn00557_c0,ITP:D-fructose-6-phosphate 1-phosphotransferase
+rxn00558_c0,D-glucose-6-phosphate aldose-ketose-isomerase
+rxn00560_c0,Urea:carbon-dioxide ligase (ADP-forming)
+rxn00565_c0,Sulfur:oxygen oxidoreductase
+rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)
+rxn00572_c0,nitrite:NADP+ oxidoreductase
+rxn00579_c0,UDP-glucose:D-fructose 2-alpha-D-glucosyltransferase
+rxn00587_c0,"Catechol:oxygen 2,3-oxidoreductase (decyclizing)"
+rxn00595_c0,"Anthranilate,NADPH:oxygen oxidoreductase (1,2-hydroxylating, deaminating, decarboxylating)"
+rxn00603_c0,D-Sorbitol 6-phosphate:NADP+ 1-oxidoreductase
+rxn00609_c0,myo-Inositol-1-phosphate synthase
+rxn00611_c0,sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase
+rxn00612_c0,sn-Glycerol-3-phosphate:NADP+ 2-oxidoreductase
+rxn00621_c0,CTP:sn-glycerol-3-phosphate cytidylyltransferase
+rxn00623_c0,hydrogen-sulfide:NADP+ oxidoreductase
+rxn00626_c0,D-Mannitol:ferricytochrome-c 2-oxidoreductase
+rxn00627_c0,ATP:D-fructose 1-phosphotransferase
+rxn00629_c0,D-Mannitol:NAD+ 2-oxidoreductase
+rxn00630_c0,D-Mannitol:NADP+ 2-oxidoreductase
+rxn00640_c0,GDP:D-mannose-1-phosphate guanylyltransferase
+rxn00642_c0,"GDP-mannose 4,6-hydro-lyase (GDP-4-dehydro-6-deoxy-D-mannose-forming)"
+rxn00646_c0,L-glutamate:L-cysteine gamma-ligase (ADP-forming)
+rxn00647_c0,L-Cysteine:2-oxoglutarate aminotransferase
+rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase
+rxn00650_c0,L-cysteinylglycine dipeptidase
+rxn00651_c0,L-cysteine hydrogen-sulfide-lyase (adding sulfite; L-cysteate-forming)
+rxn00653_c0,3-aminopropanal:NAD+ oxidoreductase
+rxn00654_c0,N-Carbamoyl-beta-alanine amidohydrolase
+rxn00656_c0,L-Alanine:3-oxopropanoate aminotransferase
+rxn00657_c0,beta-alanine:2-oxoglutarate aminotransferase
+rxn00670_c0,propanoyl-CoA:phosphate propanoyltransferase
+rxn00671_c0,2-Methyl-3-oxopropanoate:NAD+ oxidoreductase (CoA-propanoylating)
+rxn00674_c0,Propanoate:CoA ligase (AMP-forming)
+rxn00675_c0,Propionyladenylate:CoA propionyltransferase
+rxn00684_c0,"5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase"
+rxn00686_c0,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase"
+rxn00689_c0,Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)
+rxn00690_c0,Formate:tetrahydrofolate ligase (ADP-forming)
+rxn00691_c0,10-Formyltetrahydrofolate amidohydrolase
+rxn00692_c0,"5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase"
+rxn00693_c0,5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase
+rxn00701_c0,UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
+rxn00702_c0,CTP:alpha-D-glucose-1-phosphate cytidylyltransferase
+rxn00704_c0,"alpha-D-Glucose 1-phosphate 1,6-phosphomutase"
+rxn00708_c0,Uridine 5'-monophosphate phosphohydrolase
+rxn00710_c0,orotidine-5'-phosphate carboxy-lyase (UMP-forming)
+rxn00711_c0,UMP:diphosphate phospho-alpha-D-ribosyltransferase
+rxn00726_c0,chorismate pyruvate-lyase (amino-accepting; anthranilate-forming)
+rxn00727_c0,Chorismate pyruvate-lyase (amino-accepting)
+rxn00735_c0,"(2R,3S)-3-methylmalate:NAD+ oxidoreductase"
+rxn00736_c0,methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)
+rxn00737_c0,L-threonine ammonia-lyase (2-oxobutanoate-forming)
+rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming)
+rxn00743_c0,Glycerone phosphate phosphohydrolase
+rxn00744_c0,ATP:glycerone phosphotransferase
+rxn00747_c0,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase
+rxn00751_c0,ATP:choline phosphotransferase
+rxn00758_c0,sn-Glycero-3-phosphocholine glycerophosphohydrolase
+rxn00763_c0,Glycerol:NAD+ oxidoreductase
+rxn00765_c0,Glycerol:NADP+ oxidoreductase
+rxn00770_c0,ATP:D-ribose-5-phosphate diphosphotransferase
+rxn00777_c0,D-ribose-5-phosphate aldose-ketose-isomerase
+rxn00778_c0,"D-Ribose 1,5-phosphomutase"
+rxn00779_c0,D-glyceraldehyde 3-phosphate:NADP+ oxidoreductase
+rxn00780_c0,ATP:D-glyceraldehyde 3-phosphotransferase
+rxn00781_c0,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)
+rxn00782_c0,D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)
+rxn00785_c0,D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+rxn00786_c0,"D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)"
+rxn00789_c0,1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase
+rxn00790_c0,5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating)
+rxn00791_c0,N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase
+rxn00797_c0,Uridine ribohydrolase
+rxn00798_c0,D-ribose aldose-ketose-isomerase
+rxn00799_c0,(S)-malate hydro-lyase (fumarate-forming)
+rxn00800_c0,"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)"
+rxn00802_c0,2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming)
+rxn00806_c0,L-Leucine:2-oxoglutarate aminotransferase
+rxn00827_c0,CTP:N-acetylneuraminate cytidylyltransferase
+rxn00830_c0,Isopentenyl-diphosphate delta3-delta2-isomerase
+rxn00831_c0,Inosine 5'-monophosphate phosphohydrolase
+rxn00832_c0,"IMP 1,2-hydrolase (decyclizing)"
+rxn00834_c0,IMP:NAD+ oxidoreductase
+rxn00836_c0,IMP:diphosphate phospho-D-ribosyltransferase
+rxn00838_c0,IMP:L-aspartate ligase (GDP-forming)
+rxn00839_c0,ATP:dADP phosphotransferase
+rxn00840_c0,dATP:pyruvate 2-O-phosphotransferase
+rxn00851_c0,D-alanine:D-alanine ligase (ADP-forming)
+rxn00853_c0,N-Carbamoylputrescine amidohydrolase
+rxn00856_c0,putrescine:2-oxoglutarate aminotransferase
+rxn00859_c0,L-Histidinol:NAD+ oxidoreductase
+rxn00863_c0,L-histidinal:NAD+ oxidoreductase
+rxn00873_c0,Butanoate:CoA ligase (AMP-forming)
+rxn00878_c0,ATP:myo-inositol 1-phosphotransferase
+rxn00879_c0,myo-Inositol:NAD+ 2-oxidoreductase
+rxn00880_c0,myo-Inositol:oxygen oxidoreductase
+rxn00881_c0,1D-myo-Inositol 1-phosphate phosphohydrolase
+rxn00882_c0,1D-myo-Inositol 4-phosphate phosphohydrolase
+rxn00888_c0,UDP-galactose:myo-inositol 3-alpha-D-galactosyltransferase
+rxn00891_c0,N-Acetyl-D-glucosamine amidohydrolase
+rxn00892_c0,ATP:N-acetyl-D-glucosamine 6-phosphotransferase
+rxn00898_c0,"2,3-Dihydroxy-3-methylbutanoate hydro-lyase"
+rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)"
+rxn00903_c0,L-Valine:2-oxoglutarate aminotransferase
+rxn00904_c0,L-Valine:pyruvate aminotransferase
+rxn00905_c0,2-dehydropantoate formaldehyde-lyase (3-methyl-2-oxobutanoate-forming)
+rxn00907_c0,"5,10-methylenetetrahydrofolate:NADP+ oxidoreductase"
+rxn00908_c0,glycine synthase
+rxn00910_c0,5-methyltetrahydrofolate:NADP+ oxidoreductase
+rxn00912_c0,"5,10-Methylenetetrahydrofolate:3-methyl-2-oxobutanoate hydroxymethyltransferase"
+rxn00913_c0,Guanosine 5'-monophosphate phosphohydrolase
+rxn00915_c0,GMP:diphosphate 5-phospho-alpha-D-ribosyltransferase
+rxn00916_c0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)
+rxn00917_c0,Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+rxn00927_c0,Adenosine ribohydrolase
+rxn00929_c0,L-Proline:NAD+ 5-oxidoreductase
+rxn00931_c0,L-Proline:NADP+ 5-oxidoreductase
+rxn00934_c0,(S)-Malate:CoA ligase (ADP-forming)
+rxn00938_c0,Nicotinamide amidohydrolase
+rxn00942_c0,N-ribosylnicotinamide ribohydrolase
+rxn00943_c0,Palmitoyl-CoA hydrolase
+rxn00944_c0,hexadecanal:NAD+ oxidoreductase (CoA-acylating)
+rxn00947_c0,Palmitate:CoA ligase (AMP-forming)
+rxn00949_c0,L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)
+rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating)
+rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
+rxn00953_c0,L-Serine hydro-lyase (adding homocysteine)
+rxn00955_c0,S-(5-deoxy-D-ribos-5-yl)-L-homocysteine homocysteine-lyase
+rxn00957_c0,4-hydroxybenzaldehyde:NAD+ oxidoreductase
+rxn00958_c0,4-Hydroxybenzaldehyde:NADP+ oxidoreductase
+rxn00962_c0,"4-hydroxybenzoate,NADPH:oxygen oxidoreductase (3-hydroxylating)"
+rxn00964_c0,4-Hydroxybenzoate:CoA ligase (AMP-forming)
+rxn00965_c0,4-Hydroxybenzoyl-CoA hydrolase
+rxn00973_c0,citrate hydroxymutase
+rxn00974_c0,citrate hydro-lyase (cis-aconitate-forming)
+rxn00975_c0,ATP:D-mannose 6-phosphotransferase
+rxn00978_c0,dATP:D-mannose 6-phosphotransferase
+rxn00979_c0,glycolaldehyde:NAD+ oxidoreductase
+rxn00983_c0,1-acylglycerol acylhydrolase
+rxn00984_c0,2-acylglycerol acylhydrolase
+rxn00986_c0,ATP:propanoate adenylyltransferase
+rxn00988_c0,Acetoacetate:CoA ligase (AMP-forming)
+rxn00993_c0,4-fumarylacetoacetate fumarylhydrolase
+rxn01000_c0,prephenate hydro-lyase (decarboxylating; phenylpyruvate-forming)
+rxn01005_c0,UTP:1-phospho-alpha-D-glucuronate uridylyltransferase
+rxn01011_c0,D-Glycerate:NAD+ 2-oxidoreductase
+rxn01013_c0,D-Glycerate:NADP+ 2-oxidoreductase
+rxn01018_c0,carbamoyl-phosphate:L-aspartate carbamoyltransferase
+rxn01019_c0,Carbamoyl-phosphate:L-ornithine carbamoyltransferase
+rxn01021_c0,Methylthioadenosine methylthioribohydrolase
+rxn01022_c0,S-methyl-5'-thioadenosine:phosphate S-methyl-5-thio-alpha-D-ribosyl-transferase
+rxn01029_c0,Agmatine iminohydrolase
+rxn01032_c0,Benzaldehyde:NAD+ oxidoreductase
+rxn01043_c0,xylitol:NADP+ oxidoreductase
+rxn01048_c0,D-Xylulose-5-phosphate:formaldehyde glycolaldehydetransferase
+rxn01053_c0,(S)-lactaldehyde:NAD+ oxidoreductase
+rxn01068_c0,L-threonine:NAD+ oxidoreductase
+rxn01069_c0,O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming)
+rxn01072_c0,Ethanolamine:oxygen oxidoreductase (deaminating)
+rxn01073_c0,sn-Glycero-3-phosphoethanolamine glycerophosphohydrolase
+rxn01075_c0,UDP-L-arabinose 4-epimerase
+rxn01076_c0,ATP:D-glucuronate 1-phosphotransferase
+rxn01080_c0,D-glucuronate aldose-ketose-isomerase
+rxn01087_c0,ATP:ceramide 1-phosphotransferase
+rxn01090_c0,UDP-galactose:N-acylsphingosine D-galactosyltransferase
+rxn01100_c0,ATP:3-phospho-D-glycerate 1-phosphotransferase
+rxn01101_c0,3-Phospho-D-glycerate:NAD+ 2-oxidoreductase
+rxn01104_c0,"2,3-bisphospho-D-glycerate 2-phosphohydrolase"
+rxn01106_c0,"2-Phospho-D-glycerate 2,3-phosphomutase"
+rxn01107_c0,"D-Glucono-1,5-lactone lactonohydrolase"
+rxn01116_c0,D-Ribulose-5-phosphate 3-epimerase
+rxn01117_c0,D-arabinose-5-phosphate aldose-ketose-isomerase
+rxn01121_c0,D-gluconate hydro-lyase (2-dehydro-3-deoxy-D-gluconate-forming)
+rxn01122_c0,D-altronate hydro-lyase (2-dehydro-3-deoxy-D-gluconate-forming)
+rxn01124_c0,2-Dehydro-3-deoxy-D-gluconate:NAD+ 5-oxidoreductase
+rxn01127_c0,ATP:dAMP phosphotransferase
+rxn01137_c0,Adenosine aminohydrolase
+rxn01138_c0,Adenosine:phosphate alpha-D-ribosyltransferase
+rxn01141_c0,"N,N-Dimethylglycine:oxygen oxidoreductase (demethylating)"
+rxn01143_c0,ATP:thymidine 5'-phosphotransferase
+rxn01145_c0,Thymidylate 5'-phosphohydrolase
+rxn01149_c0,D-Arabinose:NAD+ 1-oxidoreductase
+rxn01151_c0,3-deoxy-D-manno-octulosonate D-arabinose-lyase (pyruvate-forming)
+rxn01152_c0,D-arabinose aldose-ketose-isomerase
+rxn01153_c0,D-Glutamine amidohydrolase
+rxn01169_c0,ATP:beta-D-glucose 6-phosphotransferase
+rxn01171_c0,D-glucose 1-epimerase
+rxn01188_c0,3-dehydroshikimate hydro-lyase
+rxn01200_c0,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+rxn01204_c0,4-aminobutanoate:2-oxoglutarate aminotransferase
+rxn01207_c0,4-methyl-2-oxopentanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
+rxn01210_c0,10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming)
+rxn01211_c0,"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)"
+rxn01213_c0,GPPSYN-RXN
+rxn01218_c0,2'-Deoxycytidine 5'-monophosphate phosphohydrolase
+rxn01219_c0,ATP:dCMP phosphotransferase
+rxn01226_c0,Guanosine ribohydrolase
+rxn01231_c0,3-Sulfo-L-alanine carboxy-lyase (taurine-forming)
+rxn01233_c0,taurine:2-oxoglutarate aminotransferase
+rxn01241_c0,Dihydrolipoamide:NAD+ oxidoreductase
+rxn01251_c0,Pyridoxamine:oxygen oxidoreductase (deaminating)
+rxn01252_c0,Pyridoxine:oxygen oxidoreductase (deaminating)
+rxn01255_c0,5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-forming)
+rxn01256_c0,Chorismate pyruvatemutase
+rxn01257_c0,chorismate:L-glutamine aminotransferase
+rxn01262_c0,S-Adenosyl-L-methionine:nicotinate N-methyltransferase
+rxn01265_c0,Nicotinate D-ribonucleotide:diphosphate phosphoribosyltransferase
+rxn01267_c0,rxn01267
+rxn01268_c0,Prephenate:NAD+ oxidoreductase(decarboxylating)
+rxn01270_c0,L-arogenate:2-oxoglutarate aminotransferase
+rxn01273_c0,(R)-Lactaldehyde:NAD+ 2-oxidoreductase
+rxn01278_c0,D-Gluconate:NADP+ 5-oxidoreductase
+rxn01279_c0,D-Gluconate:(acceptor) 2-oxidoreductase
+rxn01286_c0,D-Glyceraldehyde:NAD+ oxidoreductase
+rxn01290_c0,L-Arabitol:NAD+ 1-oxidoreductase
+rxn01291_c0,L-Arabitol:NADP+ 1-oxidoreductase
+rxn01299_c0,Inosine ribohydrolase
+rxn01300_c0,ATP:L-homoserine O-phosphotransferase
+rxn01301_c0,L-Homoserine:NAD+ oxidoreductase
+rxn01302_c0,L-homoserine:NADP+ oxidoreductase
+rxn01303_c0,Acetyl-CoA:L-homoserine O-acetyltransferase
+rxn01304_c0,Succinyl-CoA:L-homoserine O-succinyltransferase
+rxn01306_c0,2-dehydro-3-deoxy-D-pentonate glycolaldehyde-lyase (pyruvate-forming)
+rxn01310_c0,D-Glucitol:NADP+ 1-oxidoreductase
+rxn01316_c0,"phosphoenolpyruvate:N-acetyl-D-mannosamine C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn01317_c0,N-Acetylneuraminate 9-phosphate phosphohydrolase
+rxn01322_c0,N-Acetylneuraminate pyruvate-lyase (N-acetyl-D-mannosamine-forming)
+rxn01328_c0,D-mannitol-1-phosphate:NADP+ 6-oxidoreductase
+rxn01329_c0,"D-mannose 6-phosphate 1,6-phosphomutase"
+rxn01331_c0,D-erythrose 4-phosphate:NAD+ oxidoreductase
+rxn01332_c0,"Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn01333_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+rxn01334_c0,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase"
+rxn01338_c0,Testosterone:NADP+ 17-oxidoreductase
+rxn01340_c0,rxn01340
+rxn01343_c0,ATP:Sedoheptulose 7-phosphate 1-phosphotransferase
+rxn01346_c0,CTP:Sedoheptulose 7-phosphate 1-phosphotransferase
+rxn01347_c0,UTP:Sedoheptulose 7-phosphate 1-phosphotransferase
+rxn01348_c0,ITP:Sedoheptulose 7-phosphate 1-phosphotransferase
+rxn01351_c0,2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase
+rxn01353_c0,ATP:dGDP phosphotransferase
+rxn01354_c0,dGTP:pyruvate 2-O-phosphotransferase
+rxn01358_c0,inosine:phosphate alpha-D-ribosyltransferase
+rxn01362_c0,Orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase
+rxn01380_c0,CTP:choline-phosphate cytidylyltransferase
+rxn01381_c0,CDP-choline:N-acylsphingosine cholinephosphotransferase
+rxn01383_c0,Ribitol:NAD+ 2-oxidoreductase
+rxn01387_c0,Isocitrate:NADP+ oxidoreductase
+rxn01388_c0,isocitrate hydro-lyase (cis-aconitate-forming)
+rxn01391_c0,L-arabinitol:NAD+ 4-oxidoreductase (L-xylulose-forming)
+rxn01392_c0,Xylitol:NADP+ 4-oxidoreductase (L-xylulose-forming)
+rxn01395_c0,oxalyl-CoA carboxy-lyase (formyl-CoA-forming)
+rxn01396_c0,ATP:pyridoxine 5'-phosphotransferase
+rxn01403_c0,gamma-L-glutamyl-L-cysteinyl-glycine:spermidine ligase (ADP-forming)
+rxn01418_c0,2-oxoadipate dehydrogenase complex
+rxn01419_c0,"(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)"
+rxn01423_c0,L-2-aminoadipate:2-oxoglutarate aminotransferase
+rxn01425_c0,Caffeic aldehyde:NADP+ oxidoreductase (CoA-caffeoylating)
+rxn01434_c0,L-Citrulline:L-aspartate ligase (AMP-forming)
+rxn01445_c0,2'-Deoxyguanosine 5'-monophosphate phosphohydrolase
+rxn01446_c0,Deoxyguanosine:orthophosphate ribosyltransferase
+rxn01453_c0,(R)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase
+rxn01459_c0,4-Aminobutyraldehyde:NAD+ oxidoreductase
+rxn01465_c0,(S)-dihydroorotate amidohydrolase
+rxn01466_c0,Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase
+rxn01474_c0,6-Phospho-2-dehydro-D-gluconate:NAD+ 2-oxidoreductase
+rxn01475_c0,6-phospho-D-gluconate:NADP+ 2-oxidoreductase
+rxn01477_c0,6-Phospho-D-gluconate hydro-lyase(2-dehydro-3-deoxy-6-phospho-D-gluconate-forming)
+rxn01479_c0,CTP:ethanolamine-phosphate cytidylyltransferase
+rxn01485_c0,"D-Glucosamine 1-phosphate 1,6-phosphomutase"
+rxn01498_c0,"3,4-Dihydroxy-L-phenylalanine ammonia-lyase"
+rxn01499_c0,"3,4-Dihydroxy-L-phenylalanine carboxy-lyase"
+rxn01505_c0,"N-Acetyl-D-glucosamine 1-phosphate 1,6-phosphomutase"
+rxn01507_c0,2'-Deoxyadenosine 5'-monophosphate phosphohydrolase
+rxn01509_c0,ATP:dGMP phosphotransferase
+rxn01512_c0,ATP:dTDP phosphotransferase
+rxn01513_c0,ATP:dTMP phosphotransferase
+rxn01517_c0,ATP:dUMP phosphotransferase
+rxn01518_c0,ATP:deoxyuridine 5'-phosphotransferase
+rxn01519_c0,dUTP nucleotidohydrolase
+rxn01520_c0,"5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase"
+rxn01521_c0,2'-Deoxyuridine 5'-monophosphate phosphohydrolase
+rxn01525_c0,UDPglucose:sterol 3-O-beta-D-glucosyltransferase
+rxn01529_c0,retinal:NAD+ oxidoreductase
+rxn01537_c0,Thiamin hydrolase
+rxn01539_c0,thiamin monophosphate phosphohydrolase
+rxn01544_c0,XMP:pyrophosphate phosphoribosyltransferase
+rxn01545_c0,Xanthosine ribohydrolase
+rxn01548_c0,guanosine:phosphate alpha-D-ribosyltransferase
+rxn01564_c0,Tryptamine:oxygen oxidoreductase(deaminating)
+rxn01575_c0,L-Isoleucine:2-oxoglutarate aminotransferase
+rxn01583_c0,"5alpha-pregnane-3,20-dione:NADP+ 5-oxidoreductase"
+rxn01601_c0,dihydrofolate:NAD+ oxidoreductase
+rxn01602_c0,dihydrofolate:NADP+ oxidoreductase
+rxn01603_c0,"7,8-dihydropteroate:L-glutamate ligase (ADP-forming)"
+rxn01605_c0,cis-Aconitate carboxy-lyase
+rxn01617_c0,"Propane-1,2-diol:NADP+ oxidoreductase"
+rxn01618_c0,(S)-Lactaldehyde:NADP+ oxidoreductase
+rxn01629_c0,"(S)-4-Amino-5-oxopentanoate 4,5-aminomutase"
+rxn01634_c0,5-Dehydro-4-deoxy-D-glucarate hydro-lyase (decarboxylating)
+rxn01643_c0,L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)
+rxn01644_c0,L-Aspartate-4-semialdehyde hydro-lyase (adding pyruvate and cyclizing)
+rxn01646_c0,N-Ribosylnicotinamide:orthophosphate ribosyltransferase
+rxn01647_c0,Nicotinate D-ribonucleoside:orthophosphate ribosyltransferase
+rxn01649_c0,Xanthosine:orthophosphate ribosyltransferase
+rxn01662_c0,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase"
+rxn01663_c0,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase"
+rxn01666_c0,NTP phosphohydrolase
+rxn01667_c0,NTP:pyruvate O2-phosphotransferase
+rxn01670_c0,Nicotinamide ribonucleotide phosphohydrolase
+rxn01672_c0,dCTP aminohydrolase
+rxn01673_c0,ATP:dCDP phosphotransferase
+rxn01675_c0,dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase
+rxn01676_c0,dTTP:alpha-D-galactose-1-phosphate thymidylyltransferase
+rxn01677_c0,dUTP nucleotidohydrolase
+rxn01678_c0,ATP:dUDP phosphotransferase
+rxn01682_c0,"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase"
+rxn01683_c0,N-D-ribosylpurine ribohydrolase
+rxn01684_c0,purine-nucleoside:phosphate ribosyltransferase
+rxn01685_c0,Acetoin:NAD+ oxidoreductase
+rxn01691_c0,"omega-3 fatty acid desaturase, chloroplast (FAD7) (FADD)"
+rxn01694_c0,R02354
+rxn01695_c0,R02355
+rxn01715_c0,Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn01729_c0,glutarate-semialdehyde:NAD+ oxidoreductase
+rxn01731_c0,Itaconate:CoA ligase (ADP-forming)
+rxn01732_c0,Itaconate:CoA ligase (GDP-forming)
+rxn01733_c0,Itaconate:CoA ligase (IDP-forming)
+rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating)
+rxn01739_c0,ATP:shikimate 3-phosphotransferase
+rxn01740_c0,Shikimate:NADP+ 3-oxidoreductase
+rxn01741_c0,Shikimate:NADP+ 5-oxidoreductase
+rxn01753_c0,D-Xylonate hydro-lyase
+rxn01757_c0,L-cysteate:2-oxoglutarate aminotransferase
+rxn01767_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn01782_c0,hexadecanal:NADP+ delta2-oxidoreductase
+rxn01790_c0,(R)-Pantoate:NADP+ 2-oxidoreductase
+rxn01791_c0,(R)-Pantoate:beta-alanine ligase (AMP-forming)
+rxn01799_c0,deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase
+rxn01803_c0,Gentisate carboxy-lyase
+rxn01811_c0,rxn01811
+rxn01816_c0,R02508
+rxn01828_c0,L-Arabinonate hydro-lyase
+rxn01831_c0,(R)-Lactaldehyde:NAD+ oxidoreductase
+rxn01833_c0,aminoacetone:oxygen oxidoreductase(deaminating)
+rxn01835_c0,Lactaldehyde:NAD+ 1-oxidoreductase
+rxn01836_c0,"4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)"
+rxn01840_c0,Phenylacetaldehyde:NAD+ oxidoreductase
+rxn01841_c0,Aldehyde:NADP+ oxidoreductase
+rxn01845_c0,Sphingomyelin ceramide-phosphohydrolase
+rxn01851_c0,4-aminobutanal:NAD+ 1-oxidoreductase
+rxn01858_c0,Deoxyadenosine aminohydrolase
+rxn01859_c0,Deoxyadenosine:orthophosphate ribosyltransferase
+rxn01867_c0,p-cumic alcohol:NAD+ oxidoreductase
+rxn01868_c0,p-Cumic alcohol:NADP+ oxidoreductase
+rxn01870_c0,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase
+rxn01879_c0,"Propane-1,2-diol:NAD+ 1-oxidoreductase"
+rxn01886_c0,sn-Glycero-3-phosphocholine cholinephosphohydrolase
+rxn01887_c0,coniferyl alcohol:NADP+ oxidoreductase
+rxn01888_c0,UDPglucose:coniferyl-alcohol 4'-beta-D-glucosyltransferase
+rxn01890_c0,N-Acylneuraminate-9-phosphate phosphohydrolase
+rxn01892_c0,CTP:N-acylneuraminate cytidylyltransferase
+rxn01893_c0,R02601
+rxn01896_c0,2-hydroxymuconate-semialdehyde formylhydrolase
+rxn01901_c0,5alpha-cholestan-3-one:NADP+ delta4-oxidoreductase
+rxn01903_c0,Phenethylamine:oxygen oxidoreductase (deaminating)
+rxn01906_c0,3-sulfino-L-alanine:2-oxoglutarate aminotransferase
+rxn01917_c0,ATP:N-acetyl-L-glutamate 5-phosphotransferase
+rxn01918_c0,Gentisate aldehyde:NAD+ oxidoreductase
+rxn01932_c0,Hydorogen-peroxide:hydrogen-peroxide oxidoreductase
+rxn01937_c0,Indole-3-acetaldehyde:NAD+ oxidoreductase
+rxn01939_c0,indole-3-ethanol:NADP+ oxidoreductase
+rxn01942_c0,"(5Z,13E)-(15S)-9alpha,11alpha,15-trihydroxyprosta-5,13-dienoate:NADP+ 11-oxidoreductase"
+rxn01943_c0,4-Hydroxyphenylacetaldehyde:NAD+ oxidoreductase
+rxn01944_c0,4-Hydroxyphenylacetaldehyde:NADP+ oxidoreductase
+rxn01947_c0,5-Hydroxy-L-tryptophan:2-oxoglutarate aminotransferase
+rxn01953_c0,N-acetyl-D-mannosamine N-acetylmannosaminohydrolase
+rxn01959_c0,"D-Arabinono-1,4-lactone lactonohydrolase"
+rxn01961_c0,Xanthosine 5'-phosphate phosphohydrolase
+rxn01962_c0,XTP pyrophosphohydrolase
+rxn01964_c0,L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan and glyceraldehyde-3-phosphate-forming]
+rxn01973_c0,"N-Succinyl-LL-2,6-diaminoheptanedioate amidohydrolase"
+rxn01974_c0,"LL-2,6-Diaminoheptanedioate 2-epimerase"
+rxn01977_c0,alpha-D-Glucose 6-phosphate ketol-isomerase
+rxn01983_c0,1-Acyl-sn-glycero-3-phosphocholine acylhydrolase
+rxn01985_c0,Deoxyinosine:orthophosphate ribosyltransferase
+rxn01986_c0,"2-deoxy-D-ribose 1-phosphate 1,5-phosphomutase"
+rxn01993_c0,2-Hydroxymuconate semialdehyde:NAD+ 6-oxidoreductase
+rxn01997_c0,"dTDPglucose 4,6-hydro-lyase"
+rxn02008_c0,UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming)
+rxn02009_c0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine gamma-ligase (ADP-forming)
+rxn02011_c0,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:(L)-meso-2,6-diaminoheptanedioate gamma-ligase (ADP-forming)"
+rxn02021_c0,Hg:NADP+ oxidoreductase
+rxn02028_c0,Trimethylaminoacetate:L-homosysteine S-methyltransferase
+rxn02041_c0,Cysteine hydrogen-sulfide-lyase (adding HCN)
+rxn02046_c0,D-O-Phosphoserine phosphohydrolase
+rxn02056_c0,S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+rxn02069_c0,"4,5alpha-dihydrocortisone:NADP+ delta4-oxidoreductase"
+rxn02081_c0,5-Hydroxytryptamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn02087_c0,"4-[(1R)-1-Hydroxy-2-(methylamino)ethyl]-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)"
+rxn02100_c0,"L-Gulono-1,4-lactone lactonohydrolase"
+rxn02106_c0,2-Propyn-1-al:NAD+ oxidoreductase
+rxn02107_c0,salicylaldehyde:NAD+ oxidoreductase
+rxn02122_c0,D-Glucuronolactone:NAD+ oxidoreductase
+rxn02128_c0,ATP:pantothenate 4'-phosphotransferase
+rxn02138_c0,dTDPglucose 4-epimerase
+rxn02141_c0,3-oxoadipate:NAD+ oxidoreductase
+rxn02142_c0,3-oxoadipate:NADP+ oxidoreductase
+rxn02154_c0,Deamino-NAD+ nucleotidohydrolase
+rxn02155_c0,ATP:nicotinamide-nucleotide adenylyltransferase
+rxn02157_c0,"(Gibberellin-1),2-oxoglutarate:oxygen oxidoreductase (2beta-hydroxylating)"
+rxn02159_c0,L-Histidinol:NAD+ oxidoreductase
+rxn02160_c0,L-Histidinol-phosphate phosphohydrolase
+rxn02166_c0,4-Nitrophenyl phosphate phosphohydrolase
+rxn02172_c0,D-Arabinonate hydro-lyase
+rxn02173_c0,D-Galactonate hydro-lyase
+rxn02175_c0,ATP:pantetheine-4'-phosphate adenylyltransferase
+rxn02176_c0,Dephospho-CoA nucleotidohydrolase
+rxn02185_c0,2-Acetolactate pyruvate-lyase (carboxylating)
+rxn02186_c0,"2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
+rxn02189_c0,cinnamyl-alcohol:NADP+ oxidoreductase
+rxn02200_c0,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase"
+rxn02201_c0,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine-diphosphate:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase"
+rxn02208_c0,UTP:aldose-1-phosphate nucleotidyltransferase
+rxn02209_c0,"(R)-Propane-1,2-diol:NAD+ oxidoreductase"
+rxn02212_c0,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing)
+rxn02213_c0,3-Dehydroquinate hydro-lyase
+rxn02224_c0,L-2-aminoadipate-6-semialdehyde:NAD(P)+ 6-oxidoreductase
+rxn02226_c0,L-2-Aminoadipate-6-semialdehyde:NAD+ 6-oxidoreductase
+rxn02227_c0,L-2-Aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase
+rxn02228_c0,3-Mercaptolactate:NAD+ oxidoreductase
+rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
+rxn02263_c0,L-fucose aldose-ketose-isomerase
+rxn02264_c0,Hydroxymethylbilane hydro-lyase(cyclizing)
+rxn02269_c0,(S)-3-methyl-2-oxopentanoate:NAD+ 2-oxidoreductase (CoA-methylbutanoylating)
+rxn02273_c0,4-Guanidinobutanal:NAD+ 1-oxidoreductase
+rxn02277_c0,"7,8-Diaminononanoate:carbon-dioxide cyclo-ligase"
+rxn02278_c0,"L-Gulono-1,4-lactone:NADP+ 1-oxidoreductase"
+rxn02279_c0,"L-gulono-1,4-lactone:oxygen 2-oxidoreductase"
+rxn02284_c0,UDP-N-acetylmuramate:NADP+ oxidoreductase
+rxn02285_c0,UDP-N-acetylmuramate:NADP+ oxidoreductase
+rxn02286_c0,UDP-N-acetylmuramate:L-alanine ligase (ADP-forming)
+rxn02287_c0,S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+rxn02288_c0,Uroporphyrinogen-III carboxy-lyase
+rxn02297_c0,6-Carboxyhexanoyl-CoA:L-alanine C-carboxyhexanoyltransferase (decarboxylating)
+rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine)
+rxn02303_c0,Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)
+rxn02304_c0,protoporphyrinogen-IX:oxygen oxidoreductase
+rxn02305_c0,2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole 2-methyl-4-aminopyridine-5-methenyltransferase
+rxn02312_c0,S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase
+rxn02314_c0,ATP:D-tagatose-6-phosphate 1-phosphotransferase
+rxn02315_c0,CTP:D-Tagatose 6-phosphate 1-phosphotransferase
+rxn02316_c0,UTP:D-Tagatose 6-phosphate 1-phosphotransferase
+rxn02317_c0,ITP:D-Tagatose 6-phosphate 1-phosphotransferase
+rxn02320_c0,5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase
+rxn02323_c0,"1,2,3-Trihydroxybenzene:oxygen 1,2-oxidoreductase (decyclizing)"
+rxn02331_c0,"phosphoenolpyruvate:D-arabinose-5-phosphate C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn02341_c0,N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase
+rxn02350_c0,4-Trimethylammoniobutanal:NAD+ 1-oxidoreductase
+rxn02364_c0,"3,4-Dihydroxyphenylacetaldehyde:NAD+ oxidoreductase"
+rxn02365_c0,"3,4-Dihydroxyphenylacetaldehyde:NADP+ oxidoreductase"
+rxn02369_c0,"2-Carboxy-2,5-dihydro-5-oxofuran-2-acetate lyase (decyclizing)"
+rxn02373_c0,L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)
+rxn02374_c0,R03314
+rxn02379_c0,"alpha-D-Hexose 1-phosphate 1,6-phosphomutase"
+rxn02380_c0,beta-D-Glucose 6-phosphate ketol-isomerase
+rxn02390_c0,"1D-myo-Inositol-1,2-cyclic-phosphate 2-inositolphosphohydrolase"
+rxn02400_c0,Nicotinate D-ribonucleotide phosphohydrolase
+rxn02402_c0,Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)
+rxn02404_c0,3-Deoxy-D-manno-octulosonate-8-phosphate 8-phosphohydrolase
+rxn02405_c0,CTP:3-deoxy-D-manno-octulosonate cytidylyltransferase
+rxn02414_c0,"S-Adenosyl-L-methionine:3,4-dihydroxy-trans-cinnamate 3-O-methyltransferase"
+rxn02418_c0,myo-inositol-hexakisphosphate 4-phosphohydrolase
+rxn02424_c0,"3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)"
+rxn02432_c0,"CDP-4-dehydro-3,6-dideoxy-D-glucose:NAD+ 3-oxydoreductase"
+rxn02433_c0,"CDP-4-dehydro-3,6-dideoxy-D-glucose:NADP+ 3-oxydoreductase"
+rxn02438_c0,GDP-6-deoxy-D-mannose:NAD+ 4-oxidoreductase
+rxn02440_c0,GDP-6-deoxy-D-mannose:NADP+ 4-oxidoreductase
+rxn02449_c0,guanosine 3'-diphosphate 5'-triphosphate 5'-phosphohydrolase
+rxn02450_c0,L-2-Lysophosphatidylethanolamine aldehydohydrolase
+rxn02465_c0,N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)
+rxn02466_c0,"2-Hydroxybutane-1,2,4-tricarboxylate hydro-lyase"
+rxn02473_c0,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase
+rxn02474_c0,5-amino-6-(5-phosphoribitylamino)uracil:NADP+ 1'-oxidoreductase
+rxn02475_c0,"2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase"
+rxn02476_c0,Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase
+rxn02484_c0,ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase
+rxn02503_c0,"ATP:2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine 6'-pyrophosphotransferase"
+rxn02504_c0,"2-amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine glycolaldehyde-lyase"
+rxn02507_c0,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(cyclizing)
+rxn02508_c0,N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase
+rxn02516_c0,L-cysteine hydrogen-sulfide-lyase (adding HCN)
+rxn02517_c0,ATP:dIDP phosphotransferase
+rxn02518_c0,2'-Deoxyinosine-5'-triphosphate pyrophosphohydrolase
+rxn02569_c0,"ATP:selenide, water phosphotransferase"
+rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
+rxn02575_c0,UDPglucose:coniferyl-alcohol 4'-beta-D-glucosyltransferase
+rxn02601_c0,"flavanone,NADPH:oxygen oxidoreductase"
+rxn02602_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn02666_c0,R03758
+rxn02678_c0,trans-Oct-2-enoyl-CoA reductase
+rxn02699_c0,"(gibberellin-1),2-oxoglutarate:oxygen oxidoreductase (2beta-hydroxylating)"
+rxn02703_c0,ATP:sedoheptulose 1-phosphotransferase
+rxn02706_c0,glutathionylspermidine:glutathione ligase (ADP-forming)
+rxn02727_c0,leukotriene-C4 hydrolase
+rxn02729_c0,(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase
+rxn02744_c0,2-Aminomuconate semialdehyde:NAD+ 6-oxidoreductase
+rxn02749_c0,(R)-2-Methylmalate hydro-lyase
+rxn02758_c0,Sinapyl alcohol:NADP+ oxidoreductase
+rxn02760_c0,Sucrose 6-phosphate fructohydrolase
+rxn02770_c0,L-Rhamnofuranose:NAD+ 1-oxidoreductase
+rxn02774_c0,S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+rxn02788_c0,R03966
+rxn02789_c0,2-Isopropylmalate hydro-lyase
+rxn02791_c0,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase
+rxn02792_c0,gamma-glutamyltranspeptidase family protein
+rxn02802_c0,trans-Tetradec-2-enoyl-CoA reductase
+rxn02811_c0,3-Isopropylmalate hydro-lyase
+rxn02812_c0,ATP:branched-chain-fatty-acid 1-phosphotransferase
+rxn02814_c0,4-coumaryl alcohol:NADP+ oxidoreductase
+rxn02815_c0,UDPglucose:coniferyl-alcohol 4'-beta-D-glucosyltransferase
+rxn02826_c0,N-Acetylputrescine:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn02834_c0,Phosphoribosyl-ATP pyrophosphohydrolase
+rxn02835_c0,"1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase"
+rxn02845_c0,3-phosphonopyruvate carboxy-lyase
+rxn02853_c0,Imidazole acetaldehyde:NAD+ oxidoreductase
+rxn02889_c0,3-Methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)
+rxn02890_c0,3alpha-Hydroxy-5beta-cholanate:NAD+ oxidoreductase
+rxn02895_c0,5-Phospho-D-ribosylamine:glycine ligase (ADP-forming)
+rxn02897_c0,Nicotinate-nucleotide:dimethylbenzimidazole phospho-D-ribosyltransferase
+rxn02900_c0,(2-Aminoethyl)phosphonate:pyruvate aminotransferase
+rxn02914_c0,3-Phosphoserine:2-oxoglutarate aminotransferase
+rxn02925_c0,L-Alanine:3-oxopropanoate aminotransferase
+rxn02926_c0,L-3-amino-isobutanoate:2-oxoglutarate aminotransferase
+rxn02928_c0,"2,3,4,5-Tetrahydrodipicolinate:NAD+ oxidoreductase"
+rxn02929_c0,"2,3,4,5-Tetrahydrodipicolinate:NADP+ oxidoreductase"
+rxn02936_c0,3-Phospho-D-erythronate hydro-lyase
+rxn02937_c0,2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)
+rxn02939_c0,4-phospho-D-erythronate:NAD+ 2-oxidoreductase
+rxn02940_c0,"Oxalyl-CoA:L-2,3-diaminopropanoate N3-oxalyltransferase"
+rxn02944_c0,N2-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase
+rxn02986_c0,"2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate lyase"
+rxn02990_c0,(S)-4-Amino-5-oxopentanoate:NADP+ 5-oxidoreductase
+rxn02992_c0,"1,2,3,5-Tetrahydroxybenzene:1,2,3-trihydroxybenzene hydroxytransferase"
+rxn02993_c0,"4-(2-Aminoethyl)-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)"
+rxn03004_c0,10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase
+rxn03005_c0,R04326
+rxn03031_c0,"Succinyl-CoA:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"
+rxn03034_c0,Homoisocitrate hydro-lyase
+rxn03039_c0,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase
+rxn03047_c0,ATP:pantothenate 4'-phosphotransferase
+rxn03052_c0,5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase
+rxn03055_c0,5-carboxymethyl-2-hydroxymuconic-semialdehyde:NAD+ oxidoreductase
+rxn03061_c0,"(2S,3R)-3-Hydroxybutane-1,2,3-tricarboxylate hydro-lyase"
+rxn03062_c0,3-Isopropylmalate:NAD+ oxidoreductase
+rxn03063_c0,S-Adenosyl-L-methionine:zymosterol C-methyltransferase
+rxn03064_c0,"phosphoenolpyruvate:N-acetyl-D-mannosamine-6-phosphate C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn03068_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
+rxn03071_c0,L-1-Pyrroline-3-hydroxy-5-carboxylate:NAD+ oxidoreductase
+rxn03072_c0,L-1-Pyrroline-3-hydroxy-5-carboxylate:NADP+ oxidoreductase
+rxn03080_c0,5-amino-6-(D-ribitylamino)uracil butanedionetransferase
+rxn03084_c0,5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)
+rxn03087_c0,"N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase"
+rxn03106_c0,"3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase"
+rxn03108_c0,ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase
+rxn03122_c0,"UDP-2-acetamido-4-amino-2,4,6-trideoxyglucose:2-oxoglutarate aminotransferase"
+rxn03126_c0,Coenzyme B:coenzyme M:methanophenazine oxidoreductase
+rxn03130_c0,"UDP-2,3-bis[(3R)-3-hydroxymyristoyl]-alpha-D-glucosamine 2,3-bis[(3R)-3-hydroxymyristoyl]-beta-D-glucosaminyl 1-phosphate phosphohydrolase"
+rxn03135_c0,R04558
+rxn03136_c0,1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase
+rxn03137_c0,10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase
+rxn03140_c0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine ligase (ADP-forming)
+rxn03146_c0,UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase
+rxn03147_c0,1-(5-Phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming)
+rxn03150_c0,R04594
+rxn03159_c0,"UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine:2,3-bis-(3-hydroxytetradecanoyl)-alpha-D-glucosaminyl-1-phosphate 2,3-bis(3-hydroxytetradecanoyl)-glucosaminyltransferase"
+rxn03164_c0,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase(ADP-forming)"
+rxn03167_c0,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum)"
+rxn03174_c0,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate hydrolase"
+rxn03175_c0,N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase
+rxn03181_c0,"ATP:2,3,2',3'-tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-beta-D-1,6-glucosaminyl-alpha-phosphate 4-O'-phosphotransferase"
+rxn03182_c0,CMP-3-deoxy-D-manno-oct-2-ulosonate:lipid IVA 3-deoxy-D-manno-oct-2-ulosonate transferase
+rxn03188_c0,3-Ureidoisobutyrate amidohydrolase
+rxn03194_c0,(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating)
+rxn03195_c0,N-Methylhistamine:oxygen oxidoreductase (deaminating) (copper-containing)
+rxn03251_c0,"Hexanoyl-CoA:(acceptor) 2,3-oxidoreductase"
+rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating)
+rxn03264_c0,ATP:L-selenomethione S-adenosyltransferase
+rxn03335_c0,"3,4-Dihydroxymandelaldehyde:NAD+ oxidoreductase"
+rxn03336_c0,"3,4-Dihydroxymandelaldehyde:NADP+ oxidoreductase"
+rxn03340_c0,3-Methoxy-4-hydroxyphenylacetaldehyde:NAD+ oxidoreductase
+rxn03341_c0,3-Methoxy-4-hydroxyphenylacetaldehyde:NADP+ oxidoreductase
+rxn03342_c0,3-Methoxytyramine:oxygen oxidoreductase (deaminating) (copper-containing)
+rxn03343_c0,3-Methoxy-4-hydroxyphenylglycolaldehyde:NAD+ oxidoreductase
+rxn03344_c0,3-Methoxy-4-hydroxyphenylglycolaldehyde:NADP+ oxidoreductase
+rxn03345_c0,L-Normetanephrine:oxygen oxidoreductase (deaminating) (copper-containing)
+rxn03346_c0,L-Metanephrine:oxygen oxidoreductase (deaminating) (flavin-containing)
+rxn03354_c0,5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase
+rxn03358_c0,3-Hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn03359_c0,5-Hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn03372_c0,ATP:adenylylsulfate 3'-phosphotransferase
+rxn03373_c0,ATP:selenate adenylyltransferase
+rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating)
+rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating)
+rxn03380_c0,L-Serine hydro-lyase (adding homocysteine)
+rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine)
+rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase
+rxn03384_c0,Uroporphyrinogen I carboxy-lyase
+rxn03391_c0,R04983
+rxn03393_c0,3-octaprenyl-4-hydroxybenzoate carboxy-lyase
+rxn03397_c0,UDP-L-rhamnose:flavonol-3-O-D-glucoside L-rhamnosyltransferase
+rxn03400_c0,3-Methylimidazole acetaldehyde:NAD+ oxidoreductase
+rxn03408_c0,"UDP-N-acetyl-D-glucosamine:undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine 4-beta-N-acetylglucosaminlytransferase"
+rxn03414_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn03419_c0,formamidopyrimidine nucleoside triphosphate amidohydrolase
+rxn03421_c0,"2,5-Diaminopyrimidine nucleoside triphosphate mutase"
+rxn03423_c0,N4-Acetylaminobutanal:NAD+ oxidoreductase
+rxn03424_c0,L-erythro-4-Hydroxyglutamate:NAD+ oxidoreductase
+rxn03435_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)"
+rxn03436_c0,(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
+rxn03437_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate hydro-lyase"
+rxn03439_c0,CMP-3-deoxy-D-manno-oct-2-ulosonate:(KDO)-lipid IVA 3-deoxy-D-manno-oct-2-ulosonate transferase
+rxn03445_c0,O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
+rxn03446_c0,O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)
+rxn03455_c0,6-oxohexanoate:NADP oxidoreductase
+rxn03511_c0,ADP-D-glycero-D-manno-heptose 6-epimerase
+rxn03536_c0,R05221
+rxn03537_c0,R05222
+rxn03538_c0,R05223
+rxn03546_c0,6-Hydroxyhexanoate:NADP+ oxidoreductase
+rxn03550_c0,p-cumic aldehyde:NAD+ oxidoreductase
+rxn03551_c0,4-Hydroxymuconic-semialdehyde:NAD+ oxidoreductase
+rxn03572_c0,"cytochrome P450, CYP711 clan  [SP:A8ITR3_CHLRE]"
+rxn03583_c0,4-(hydroxymethyl)benzenesulfonate:NAD+ oxidoreductase
+rxn03584_c0,4-formylbenzenesulfonate:NAD+ oxidoreductase
+rxn03598_c0,Chloroacetaldehyde:NAD+ oxidoreductase
+rxn03601_c0,p-Methylbenzaldehyde:NADP+ oxidoreductase
+rxn03618_c0,formaldehyde:NAD+ oxidoreductase (mycothiol-formylating)
+rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase
+rxn03643_c0,D-arabino-hex-3-ulose-6-phosphate formaldehyde-lyase (D-ribulose-5-phosphate-forming)
+rxn03644_c0,D-arabino-hex-3-ulose-6-phosphate isomerase
+rxn03654_c0,"2-hydroxy-5-methyl-cis,cis-muconic semialdehyde:NAD+ 6-oxidoreductase"
+rxn03841_c0,4-amino-4-deoxychorismate pyruvate-lyase
+rxn03861_c0,(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase
+rxn03887_c0,galactarate hydro-lyase (5-dehydro-4-deoxy-D-glucarate-forming)
+rxn03893_c0,all-trans-octaprenyl-diphosphate:4-hydroxybenzoate 3-octaprenyltransferase
+rxn03901_c0,undecaprenyl-diphosphate phosphohydrolase
+rxn03903_c0,UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala):undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase
+rxn03904_c0,"UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine:undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase"
+rxn03907_c0,CTP: 2-C-Methyl-D-erythritol 4-phosphate cytidylyltransferase
+rxn03908_c0,ATP:4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase
+rxn03909_c0,1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)
+rxn03910_c0,2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol CMP-lyase (cyclizing)
+rxn03916_c0,ATP:D-glycero-beta-D-manno-heptose 1-phosphate adenylyltransferase
+rxn03917_c0,D-glycero-beta-D-manno-heptose-7-phosphate aldose-ketose-isomerase
+rxn03918_c0,ATP:D-glycero-beta-D-manno-heptose 7-phosphate 1-phosphotransferase
+rxn03919_c0,"D-glycero-beta-D-manno-heptose 1,7-bisphosphate 7-phosphohydrolase"
+rxn03923_c0,"acetyl-phosphate:sulfite S-acetyltransferase (acyl-phosphate hydrolysing, 2-oxoethyl-forming)"
+rxn03924_c0,taurine:pyruvate aminotransferase
+rxn03933_c0,UDP-N-acetyl-D-glucosamine:N-acetyl-alpha-D-muramyl(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol 4-beta-N-acetylglucosaminlytransferase
+rxn03934_c0,R05663
+rxn03935_c0,R05664
+rxn03951_c0,NAD-dependent threonine 4-phosphate dehydrogenase
+rxn03958_c0,1-Deoxy-D-xylulose-5-phosphate isomeroreductase
+rxn03962_c0,"GDP-L-fucose:NADP+ 4-oxidoreductase (3,5-epimerizing)"
+rxn03963_c0,(R)-2-hydroxyacid:NAD+ oxidoreductase
+rxn03969_c0,vanillin:NAD oxidoreductase
+rxn03970_c0,Coniferyl aldehyde:NAD oxidoreductase
+rxn03978_c0,ammonia:ferricytochrome-c oxidoreductase
+rxn04026_c0,sulfopyruvate carboxy-lyase
+rxn04027_c0,UDP-6-sulfo-6-deoxyglucose sulfohydrolase
+rxn04040_c0,"ATP:1D-myo-inositol-1,4,5-trisphosphate 6-phosphotransferase"
+rxn04056_c0,2-dehydro-D-gluconate:NADP+ 2-oxidoreductase
+rxn04070_c0,pyridoxine 5'-phosphate synthase
+rxn04113_c0,isopentenyl-diphosphate:NAD(P)+ oxidoreductase
+rxn04142_c0,L-Allothreonine acetaldehyde-lyase
+rxn04210_c0,"(gibberellin-1),2-oxoglutarate:oxygen oxidoreductase (2beta-hydroxylating)"
+rxn04211_c0,"(gibberellin-1),2-oxoglutarate:oxygen oxidoreductase (2beta-hydroxylating)"
+rxn04234_c0,Aldehyde:NAD+ oxidoreductase
+rxn04285_c0,"dTDP-3-amino-3,6-dideoxy-alpha-D-glucopyranose:2-oxoglutarate aminotransferase"
+rxn04308_c0,"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 8 isopentenyl units)"
+rxn04383_c0,Phytoceramide amidohydrolase
+rxn04384_c0,adenosylcobyric acid:(R)-1-aminopropan-2-yl phosphate ligase
+rxn04407_c0,rxn04407
+rxn04413_c0,R06558
+rxn04424_c0,cinnamyl-alcohol:NADP+ oxidoreductase
+rxn04425_c0,cinnamyl-alcohol:NADP+ oxidoreductase
+rxn04428_c0,"caffeic aldehyde:3,4-dihydroxy-trans-cinnamate 3-O-methyltransferase"
+rxn04443_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+rxn04464_c0,"5,10-methylenetetrahydrofolate,NADPH:dUMP C-methyltransferase"
+rxn04674_c0,R06859
+rxn04675_c0,menaquinone biosynthesis protein-related
+rxn04676_c0,D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
+rxn04677_c0,"alpha,beta-Dihydroxyethyl-TPP:formaldehyde glycolaldehydetransferase"
+rxn04678_c0,D-Sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
+rxn04684_c0,Phosphocholine phosphohydrolase
+rxn04704_c0,coproporphyrinogen-III:S-adenosyl-L-methionine oxidoreductase(decarboxylating)
+rxn04793_c0,trans-Hex-2-enoyl-CoA reductase
+rxn04852_c0,R07046
+rxn04861_c0,R07055
+rxn04862_c0,R07056
+rxn04865_c0,R07059
+rxn04866_c0,R07060
+rxn04907_c0,Chloral:NAD(P)+ oxidoreductase
+rxn04933_c0,mannitol:NAD+ 1-oxidoreductase
+rxn04937_c0,lactaldehyde:NADP+ oxidoreductase
+rxn04951_c0,fluoroacetaldehyde:NAD+ oxidoreductase
+rxn04996_c0,dimethyallyl diphosphate:NADP+ oxidoreductase
+rxn05011_c0,"S-adenosyl-L-methionine:N,N-dimethylglycine N-methyltransferase"
+rxn05028_c0,(E)-octaprenyl-diphosphate:isopentenyl-diphosphate octaprenyltranstransferase
+rxn05029_c0,ATP:cobinamide Cobeta-adenosyltransferase
+rxn05036_c0,L-arogenate:2-oxoglutarate aminotransferase
+rxn05038_c0,ATP:1D-myo-inositol 3-phosphotransferase
+rxn05040_c0,"D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming)"
+rxn05050_c0,5'-ribonucleotide phosphohydrolase
+rxn05054_c0,adenosylcobyric acid:(R)-1-aminopropan-2-ol ligase (ADP-forming)
+rxn05059_c0,dCTP aminohydrolase (dUMP-forming)
+rxn05072_c0,1D-myo-inositol-3-phosphate lyase (isomerizing)
+rxn05073_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn05108_c0,R07396
+rxn05118_c0,R07408
+rxn05125_c0,N-Methylanthranilate:CoA ligase (AMP-forming)
+rxn05144_c0,Pyridoxal 5-phosphate synthase
+rxn05145_c0,phosphate-transporting ATPase
+rxn05146_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05147_c0,D-Glucose-ABC transport
+rxn05148_c0,Heme transport via ABC system
+rxn05150_c0,zinc transport via ABC system
+rxn05151_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05152_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05153_c0,sulfate-transporting ATPase
+rxn05154_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05155_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05156_c0,ornithine transport via ABC system
+rxn05159_c0,choline transport via ABC system
+rxn05160_c0,monosaccharide-transporting ATPase
+rxn05161_c0,nonpolar-amino-acid-transporting ATPase
+rxn05162_c0,D-galactose transport via ABC system
+rxn05163_c0,putrescine transport via ABC system
+rxn05164_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05165_c0,nonpolar-amino-acid-transporting ATPase
+rxn05166_c0,RXNBWI-115367.ce
+rxn05167_c0,D-xylose transport via ABC system
+rxn05168_c0,nonpolar-amino-acid-transporting ATPase
+rxn05169_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05170_c0,TRANS-RXNAVI-26732.ce.brachyexp.CPD-3609_CPD-3609
+rxn05171_c0,nitrate-transporting ATPase
+rxn05173_c0,L-arabinose transport via ABC system
+rxn05174_c0,nickel transport via ABC system
+rxn05175_c0,spermidine transport via ABC system
+rxn05179_c0,nonpolar-amino-acid-transporting ATPase
+rxn05181_c0,Glycine betaine transport via ABC system
+rxn05195_c0,ATP phosphohydrolase (ferric-ion-transporting)
+rxn05202_c0,TRANS-RXN-206.ce
+rxn05204_c0,TRANS-RXNBWI-115572.ce.maizeexp.GUANOSINE_GUANOSINE
+rxn05207_c0,Na+/malate symporter
+rxn05210_c0,phosphate Na+ symporter
+rxn05211_c0,"Transport of citrate, extracellular"
+rxn05215_c0,Alanine-Sodium symporter
+rxn05216_c0,Na+ Glutamine symporter
+rxn05217_c0,TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE
+rxn05219_c0,nonpolar-amino-acid-transporting ATPase
+rxn05221_c0,Na+/Proline-L symporter
+rxn05223_c0,Biotin ABC transporter
+rxn05224_c0,Riboflavin permease
+rxn05231_c0,2'-Deoxyadenosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+rxn05233_c0,2'-Deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+rxn05237_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn05239_c0,"adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)"
+rxn05247_c0,FACOAL140(ISO)
+rxn05248_c0,FACOAL150(anteiso)
+rxn05249_c0,FACOAL150(ISO)
+rxn05250_c0,FACOAL160(ISO)
+rxn05251_c0,FACOAL170(anteiso)
+rxn05252_c0,FACOAL170(ISO)
+rxn05256_c0,"AMP,sulfite:thioredoxin-disulfide oxidoreductase(adenosine-5'-phosphosulfate-forming)"
+rxn05275_c0,b-ketoacyl synthetase (Iso-C17:0)
+rxn05276_c0,b-ketoacyl synthetase (Anteiso-C17:0)
+rxn05278_c0,b-ketoacyl synthetase (Iso-C15:0)
+rxn05289_c0,NADPH:oxidized-thioredoxin oxidoreductase
+rxn05293_c0,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase"
+rxn05297_c0,TRANS-RXNBWI-115637.ce.maizeexp.GLT_GLT
+rxn05298_c0,Na+/glutamate symport
+rxn05299_c0,TRANS-RXNBWI-115637.ce.maizeexp.HIS_HIS
+rxn05300_c0,TRANS-RXNBWI-115637.ce.maizeexp.THR_THR
+rxn05301_c0,TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR
+rxn05307_c0,TRANS-RXNBWI-115637.ce.maizeexp.SER_SER
+rxn05308_c0,Pantothenate reversible transport via proton symport
+rxn05312_c0,Inorganic phosphate transporter
+rxn05313_c0,phosphate transport in/out via three Na+ symporter
+rxn05316_c0,TRANS-RXNBWI-115572.ce.maizeexp.INOSINE_INOSINE
+rxn05318_c0,TRANS-RXN-203.ce
+rxn05319_c0,TRANS-RXNBWI-115401.ce.maizeexp.OH_OH
+rxn05321_c0,Acetyl-CoA carbon-dioxide ligase
+rxn05322_c0,"Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05323_c0,"Tetradecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05324_c0,"Dodecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05325_c0,"Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05326_c0,"Hexanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05327_c0,"Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05328_c0,"Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)"
+rxn05329_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+rxn05330_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+rxn05331_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+rxn05332_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
+rxn05333_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+rxn05334_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+rxn05335_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
+rxn05336_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+rxn05337_c0,(3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+rxn05338_c0,(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+rxn05339_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase
+rxn05340_c0,(3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+rxn05341_c0,(3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+rxn05342_c0,(3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+rxn05343_c0,Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05344_c0,Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05345_c0,dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05346_c0,butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05347_c0,Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05348_c0,Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase
+rxn05350_c0,hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05351_c0,"Tetradecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)"
+rxn05352_c0,"Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)"
+rxn05353_c0,"Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)"
+rxn05354_c0,"Hexadecanoyl-[acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)"
+rxn05355_c0,"Dodecanoyl-[acyl-carrier protein]: malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)"
+rxn05356_c0,"Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)"
+rxn05357_c0,Hexanoyl-[acyl-carrier protein]:oxoacyl- and enoyl-reducing and thioester-hydrolysing)
+rxn05404_c0,13-methyl-tetra-decanoyl-ACP:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+rxn05405_c0,15-methyl-3-oxo-hexa-decanoyl-ACP:NADP+ oxidoreductase
+rxn05406_c0,15-methyl-3-hydroxy-hexa-decanoyl-ACP hydro-lyase
+rxn05407_c0,15-methyl-trans-hexa-dec-2-enoyl-ACP:NADP+ oxidoreductase (A-specific)
+rxn05444_c0,15-methyl-trans-hexa-dec-2-enoyl-ACP:NAD+ oxidoreductase (A-specific)
+rxn05453_c0,13-methyl-tetra-decanoyl-ACP:[acyl-carrier-protein] transferase
+rxn05454_c0,15-methyl-hexa-decanoyl-ACP:[acyl-carrier-protein] transferase
+rxn05465_c0,Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
+rxn05466_c0,TRANS-RXN-173.ce
+rxn05467_c0,CO2 transporter via diffusion
+rxn05468_c0,TRANS-RXNAVI-26568.ce
+rxn05469_c0,pyruvate reversible transport via proton symport
+rxn05470_c0,"glycolate transport via proton symport, reversible"
+rxn05481_c0,5-Methylthio-D-ribose transport in/out via proton symport
+rxn05488_c0,acetate reversible transport via proton symport
+rxn05493_c0,"Transport of a-ketoglutarate, extracellular"
+rxn05496_c0,TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE
+rxn05500_c0,L-arabinose transport via proton symport
+rxn05507_c0,arsenite transp or ter via unip or t
+rxn05508_c0,TRANS-RXNBWI-115637.ce.maizeexp.ASN_ASN
+rxn05513_c0,TRANS-RXN-194.ce
+rxn05514_c0,calcium transport in/out via proton antiporter
+rxn05516_c0,Cadmium-translocating P-type ATPase
+rxn05518_c0,cellobiose transport via PEP:Pyr PTS
+rxn05528_c0,Copper-transporting ATPase
+rxn05555_c0,iron (II) transport via ABC system
+rxn05559_c0,formate transport in via proton symport
+rxn05561_c0,"Transport of dicarboxylates, extracellular"
+rxn05566_c0,D-galactose transport in via proton symport
+rxn05569_c0,D-glucosamine transport via PEP:Pyr PTS
+rxn05572_c0,"D-glucarate transport via proton symport, reversible"
+rxn05573_c0,D-glucose transport in via proton symport
+rxn05578_c0,TRANS-RXNBWI-115531.ce
+rxn05579_c0,"Glycine betaine transport via proton symport, reversible"
+rxn05582_c0,TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY
+rxn05595_c0,TRANS-RXN-3.ce
+rxn05596_c0,TRANS-RXNBWI-115525.ce.maizeexp.K+_K+
+rxn05598_c0,ATP phosphohydrolase (disaccharide-importing)
+rxn05602_c0,L-lactate reversible transport via proton symport
+rxn05605_c0,Maltose permease MAL31
+rxn05608_c0,ATP phosphohydrolase (disaccharide-importing)
+rxn05610_c0,D-mannose transport via PEP:Pyr PTS
+rxn05611_c0,D-mannose transport in via proton symport
+rxn05618_c0,manganese transport in via proton antiport
+rxn05619_c0,ATP phosphohydrolase (molybdate-importing)
+rxn05622_c0,Na(+)-transporting ATPase
+rxn05625_c0,"nitrite transport in via proton symport, reversible"
+rxn05634_c0,propionate transp or t in via proton symp or t
+rxn05638_c0,TRANS-RXNBWI-115637.ce.maizeexp.PRO_PRO
+rxn05641_c0,xenobiotic-transporting ATPase
+rxn05644_c0,D-ribose transport out via ABC system
+rxn05645_c0,riboflavin transport in via proton symport
+rxn05651_c0,sulfate transport in via proton symport
+rxn05654_c0,"Transport of succinate, extracellular"
+rxn05667_c0,TRANS-RXN4LZ-7041.ce
+rxn05691_c0,L-fucose transport via proton symport
+rxn05693_c0,TRANS-RXNAVI-26524.ce.brachyexp.CPD-170_CPD-170
+rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)"
+rxn05736_c0,acyl-coenzyme A ligase
+rxn05743_c0,inositol catabolic reactions (lumped)
+rxn05747_c0,quinone reductase
+rxn05760_c0,L-Glutamate:ferredoxin oxidoreductase (transaminating)
+rxn05763_c0,dinucleotide nucleotidohydrolase
+rxn05771_c0,Ferrocytochrome c2:oxygen oxidoreductase
+rxn05895_c0,ferrocytochrome-b:nitrate oxidoreductase
+rxn05902_c0,sulphite reductase
+rxn05909_c0,"L-serine hydro-lyase (adding hydrogen sulfide, L-cysteine-forming)"
+rxn05910_c0,"L-cysteine,glutathione:NADP+ oxidoreductase (disulfide-forming)"
+rxn05918_c0,GDPmannose:dolichyl-phosphate O-beta-D-mannosyltransferase
+rxn05926_c0,Acyl-CoA:L-carnitine O-palmitoyltransferase
+rxn05927_c0,2.8.1.6-RXN
+rxn05937_c0,Ferredoxin:NADP+ oxidoreductase
+rxn05938_c0,pyruvate ferredoxin oxidoreductase
+rxn05942_c0,5-methyltetrahydrofolate:ferredoxin oxidoreductase
+rxn05952_c0,glutathione:L-amino-acid 5-glutamyltransferase
+rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
+rxn05958_c0,S-ribosylhomocysteine lyase
+rxn05962_c0,phosphatidylcholine acylhydrolase
+rxn05963_c0,Phosphatidylcholine phosphatidohydrolase
+rxn05964_c0,Phosphatidylcholine cholinephosphohydrolase
+rxn05965_c0,Phosphatidylcholine 2-acylhydrolase
+rxn05966_c0,Phosphatidylcholine 1-acylhydrolase
+rxn05968_c0,Acyl-CoA:1-acyl-sn-glycero-3-phosphocholine O-acyltransferase
+rxn05971_c0,"CDP-choline:1,2-diacyl-sn-glycerol cholinephosphotransferase"
+rxn05990_c0,triacylglycerol acylhydrolase
+rxn05994_c0,acyl-[acyl-carrier-protein]:NAD+ oxidoreductase
+rxn05995_c0,Acyl-[acyl-carrier protein]:NADP+ oxidoreductase
+rxn06023_c0,CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase
+rxn06025_c0,(5-L-glutamyl)-peptide:taurine 5-glutamyltransferase
+rxn06038_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase
+rxn06041_c0,CDP-diacylglycerol phosphatidylhydrolase
+rxn06043_c0,CTP:phosphatidate cytidyltransferase
+rxn06044_c0,CDP-diacylglycerol:L-serine 3-phosphatidyltransferase
+rxn06045_c0,CDP-diacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase
+rxn06046_c0,CDP-diacylglycerol:myo-inositol 3-phosphatidyltransferase
+rxn06075_c0,2'-Deoxyuridine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+rxn06076_c0,2'-Deoxycytidine diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+rxn06079_c0,Phosphatidylglycerol cholinephosphohydrolase
+rxn06080_c0,Phosphatidylglycerophosphate phosphohydrolase
+rxn06081_c0,CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
+rxn06086_c0,Phosphatidylethanolamine phosphatidohydrolase
+rxn06087_c0,Phosphatidylethanolamine ethanolaminephosphohydrolase
+rxn06089_c0,Phosphatidylethanolamine 1-acylhydrolase
+rxn06090_c0,Phsophatidyl-L-serine carboxy-lyase
+rxn06092_c0,"CDPethanolamine:1,2-diacylglycerol ethanolaminephosphotransferase"
+rxn06108_c0,NADH:ubiquinone oxidoreductase
+rxn06138_c0,"1,2-diacyl-sn-glycerol 3-phosphate phosphohydrolase"
+rxn06139_c0,"ATP:1,2-diacylglycerol 3-phosphotransferase"
+rxn06141_c0,Acyl-CoA:2-acyl-sn-glycerol-3-phosphate O-acyltransferase
+rxn06176_c0,testosterone 7alpha-hydroxylase
+rxn06202_c0,Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase
+rxn06217_c0,"1,2-diacyl-sn-glycerol acylhydrolase"
+rxn06218_c0,"1,2-Diacyl-sn-glycerol acylhydrolase"
+rxn06222_c0,"1,2-Diacyl-sn-glycerol:sterol O-acyltransferase"
+rxn06224_c0,Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase
+rxn06234_c0,ATP:acylglycerol 3-phosphotransferase
+rxn06239_c0,"phosphoenolpyruvate:N-acyl-D-mannosamine-6-phosphate C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn06252_c0,Alditol:NAD+ 1-oxidoreductase
+rxn06253_c0,Alditol:NADP+ 1-oxidoreductase
+rxn06280_c0,L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)
+rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating)
+rxn06300_c0,L-Alanine:tRNA(Ala) ligase (AMP-forming)
+rxn06314_c0,CDPcholine:1-alkenyl-2-acylglycerol cholinephosphotransferase
+rxn06317_c0,"flavanone,NADPH:oxygen oxidoreductase"
+rxn06323_c0,NDP:alpha-D-aldose-1-phosphate nucleotidyltransferase
+rxn06362_c0,1-Phosphatidyl-D-myo-inositol inositolphosphohydrolase
+rxn06367_c0,1-Phosphatidyl-1D-myo-inositol 3-phosphate 3-phosphohydrolase
+rxn06368_c0,1-Phosphatidyl-D-myo-inositol inositolphosphohydrolase (cyclic-phosphate-forming)
+rxn06373_c0,S-Adenosyl-L-methionine:unsaturated-phospholipid methyltransferase (cyclizing)
+rxn06378_c0,"1-Phosphatidyl-1D-myo-inositol-4,5-bisphosphate inositoltrisphosphohydrolase"
+rxn06389_c0,ATP:1-phosphatidyl-1D-myo-inositol-4-phosphate 5-phosphotransferase
+rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating)
+rxn06432_c0,L-Arginine:tRNA(Arg) ligase (AMP-forming)
+rxn06433_c0,L-Aspartate:tRNAAsn ligase (AMP-forming)
+rxn06434_c0,L-Asparagine:tRNA(Asn) ligase (AMP-forming)
+rxn06435_c0,L-Cysteine:tRNA(Cys) ligase (AMP-forming)
+rxn06437_c0,L-Glutamine:tRNA(Gln) ligase (AMP-forming)
+rxn06438_c0,glycine:tRNA(Gly) ligase (AMP-forming)
+rxn06439_c0,L-Histidine:tRNA(His) ligase (AMP-forming)
+rxn06440_c0,L-Isoleucine:tRNA(Ile) ligase (AMP-forming)
+rxn06441_c0,L-Leucine:tRNA(Leu) ligase (AMP-forming)
+rxn06443_c0,L-Methionine:tRNAMet ligase (AMP-forming)
+rxn06444_c0,L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)
+rxn06445_c0,L-proline:tRNA(Pro) ligase (AMP-forming)
+rxn06446_c0,L-Serine:tRNA(Ser) ligase (AMP-forming)
+rxn06447_c0,L-Threonine:tRNA(Thr) ligase (AMP-forming)
+rxn06448_c0,L-Tryptophan -tRNA(Trp) ligase (AMP-forming)
+rxn06449_c0,L-Valine:tRNAVal ligase (AMP-forming)
+rxn06485_c0,tRNA-guanine:queuine tRNA-ribosyltransferase
+rxn06490_c0,S-Adenosyl-L-methionine:mRNA (guanine-N7-)-methyltransferase
+rxn06493_c0,dihydrolipoylprotein:NAD+ oxidoreductase
+rxn06499_c0,GTP:mRNA guanylyltransferase
+rxn06527_c0,glutathione:protein-disulfide oxidoreductase
+rxn06528_c0,gamma-glutamyltranspeptidase family protein
+rxn06556_c0,Dodecanoyl-[acyl-carrier-protein] hydrolase
+rxn06557_c0,Hydrogen:ferricytochrome-c3 oxidoreductase
+rxn06558_c0,3'-Phosphoadenylylsulfate:galactosylceramide 3'-sulfotransferase
+rxn06591_c0,L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)
+rxn06596_c0,"Fatty acid,reduced-flaboprotein:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)"
+rxn06608_c0,(5-L-glutamyl)-peptide:amino-acid 5-glutamyltransferase
+rxn06620_c0,Dolichyl-diphosphooligosaccharide:protein-L-asparagine oligopolysaccharidotransferase
+rxn06624_c0,Aminoacyl-tRNA aminoacylhydrolase
+rxn06630_c0,ATP:deoxynucleoside-phosphate phosphotransferase
+rxn06641_c0,2'-Deoxyribonucleoside diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+rxn06672_c0,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming)
+rxn06673_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+rxn06698_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier protein] hydro-lyase
+rxn06723_c0,(3R)-3-hydroxymyristoyl-[acyl-carrier protein]:UDP-3-O-[(3R)-3-hydroxymyristoyl]-alpha-D-glucosamine N-acetyltransferase
+rxn06729_c0,(R)-3-Hydroxytetradecanoly-[acyl-carrier-protein]:UDP-N-acetyl-glucosamine 3-O-(3-hydroxytetradecanoyl)transferase
+rxn06798_c0,Sulfatide sulfohydrolase
+rxn06817_c0,(5-L-glutamyl)-peptide:Se-Methylselenocysteine 5-glutamyltransferase
+rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase
+rxn06848_c0,R05075
+rxn06865_c0,R05146
+rxn06882_c0,10-Formyltetrahydrofolyl L-glutamate:L-glutamate gamma-ligase (ADP-forming)
+rxn06901_c0,"Phospholipid:1,2-diacyl-sn-glycerol O-acyltransferase"
+rxn06936_c0,L-Aspartate:tRNA(Asp) ligase (AMP-forming)
+rxn06937_c0,L-glutamate:tRNA(Glu) ligase (AMP-forming)
+rxn06972_c0,ATP:1-phosphatidyl-1D-myo-inositol-4-phosphate 3-phosphotransferase
+rxn06991_c0,GcpE protein; nuclear gene for chloroplast product
+rxn07173_c0,Acyl-CoA:sn-glycerol-3-phosphate 2-O-acyltransferase
+rxn07230_c0,"1-phosphatidyl-1D-myo-inositol-3,4-bisphosphate 4-phosphohydrolase"
+rxn07254_c0,L-1-phosphatidylethanolamine:L-serine phosphatidyltransferase
+rxn07255_c0,R07377
+rxn07260_c0,R07383
+rxn07261_c0,R07384
+rxn07262_c0,R07385
+rxn07263_c0,R07386
+rxn07267_c0,R07390
+rxn07312_c0,R07481
+rxn07456_c0,R07641
+rxn07474_c0,R07659
+rxn07476_c0,UDP-4-deoxy-4-formamido-L-arabinose:undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinosyltransferase
+rxn07482_c0,3-hydroxybenzaldehyde:NAD+ oxidoreductase
+rxn07523_c0,R07709
+rxn07575_c0,R07761
+rxn07579_c0,R07765
+rxn07783_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn07786_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn07787_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn07919_c0,"(R)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)"
+rxn07921_c0,"(S)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)"
+rxn07949_c0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:0)
+rxn07976_c0,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1)
+rxn07977_c0,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1)
+rxn07978_c0,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1)
+rxn07979_c0,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)
+rxn07980_c0,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1)
+rxn07981_c0,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0)
+rxn07987_c0,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1)
+rxn07989_c0,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1)
+rxn07991_c0,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1)
+rxn07992_c0,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0)
+rxn07993_c0,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1)
+rxn07997_c0,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1)
+rxn07998_c0,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1)
+rxn08000_c0,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1)
+rxn08001_c0,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0)
+rxn08002_c0,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1)
+rxn08013_c0,RXN0-6550.c
+rxn08014_c0,myristate-[acyl-carrier-protein] ligase
+rxn08020_c0,laurate-[acyl-carrier-protein] ligase
+rxn08021_c0,acyl-[acyl-carrier-protein] synthetase  (n-C10:0)
+rxn08022_c0,RXN-5741.c
+rxn08032_c0,acetaldehyde transport via diffusion (extracellular to periplasm)
+rxn08043_c0,pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)
+rxn08061_c0,acetate reversible transport via proton symport (periplasm)
+rxn08062_c0,Na+/Acetate symport (periplasm)
+rxn08068_c0,TRANS-RXN-108A.cp
+rxn08083_c0,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0)
+rxn08086_c0,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0)
+rxn08087_c0,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1)
+rxn08088_c0,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0)
+rxn08094_c0,2-Oxoglutarate dehydrogenase complex
+rxn08097_c0,L-alanine transport via ABC system (periplasm)
+rxn08111_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn08126_c0,Amylomaltase (maltotriose)
+rxn08127_c0,Amylomaltase (maltotetraose)
+rxn08128_c0,Amylomaltase (maltopentaose)
+rxn08129_c0,Amylomaltase (maltohexaose)
+rxn08130_c0,ADOMET-DMK-METHYLTRANSFER-RXN.c
+rxn08131_c0,4-amino-2-methyl-5-phosphomethylpyrimidine synthetase
+rxn08141_c0,L-arabinose transport via proton antiport (periplasm)
+rxn08160_c0,L-asparagine transport via ABC system (periplasm)
+rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating)
+rxn08173_c0,F(1)-ATPase
+rxn08185_c0,calcium (Ca+2) transport out via proton antiport (periplasm)
+rxn08188_c0,calcium / sodium antiporter (1:1)
+rxn08196_c0,TRANS-RXN0-244.cp
+rxn08199_c0,CDP-Diacylglycerol pyrophostatase (n-C12:0)
+rxn08200_c0,CDP-Diacylglycerol pyrophostatase (n-C14:0)
+rxn08202_c0,CDP-Diacylglycerol pyrophostatase (n-C16:0)
+rxn08203_c0,CDP-Diacylglycerol pyrophostatase (n-C16:1)
+rxn08206_c0,"cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C16:0)"
+rxn08207_c0,"cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C16:0)"
+rxn08208_c0,"cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C18:0)"
+rxn08209_c0,"cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C18:0)"
+rxn08220_c0,"cardiolipin hydrolase (periplasm, n-C14:0)"
+rxn08221_c0,"cardiolipin hydrolase (periplasm, n-C14:1)"
+rxn08222_c0,"cardiolipin hydrolase (periplasm, n-C16:0)"
+rxn08223_c0,"cardiolipin hydrolase (periplasm, n-C16:1)"
+rxn08227_c0,"cardiolipin synthase (periplasmic, n-C14:0)"
+rxn08228_c0,"cardiolipin synthase (periplasmic, n-C14:1)"
+rxn08229_c0,"cardiolipin synthase (periplasmic, n-C16:0)"
+rxn08230_c0,"cardiolipin synthase (periplasmic, n-C16:1)"
+rxn08233_c0,Chloride/proton antiport
+rxn08239_c0,Cobalt (Co+2) ABC transporter (periplasm)
+rxn08240_c0,cobalt (Co+2) transport out via proton antiport (periplasm)
+rxn08275_c0,copper transport out via proton antiport
+rxn08276_c0,Cyanide transport via diffusion (extracellular to periplasm)
+rxn08280_c0,RXN0-3.cp
+rxn08288_c0,cytochrome oxidase bd (ubiquinol-8: 2 protons) (periplasm)
+rxn08291_c0,D-Amino acid dehydrogenase
+rxn08297_c0,diacylglycerol kinase (n-C16:0)
+rxn08300_c0,diacylglycerol kinase (n-C18:1)
+rxn08306_c0,CDP-diacylglycerol synthetase (n-C12:0)
+rxn08307_c0,CDP-diacylglycerol synthetase (n-C14:0)
+rxn08308_c0,CDP-diacylglycerol synthetase (n-C14:1)
+rxn08309_c0,CDP-diacylglycerol synthetase (n-C16:0)
+rxn08310_c0,CDP-diacylglycerol synthetase (n-C16:1)
+rxn08311_c0,CDP-diacylglycerol synthetase (n-C18:0)
+rxn08312_c0,CDP-diacylglycerol synthetase (n-C18:1)
+rxn08335_c0,(S)-dihydroorotate:quinone oxidoreductase
+rxn08350_c0,D-lactate transport via proton symport (periplasm)
+rxn08352_c0,R08210
+rxn08358_c0,Dimethyl sulfoxide transport via diffusion (extracellular to periplasm)
+rxn08359_c0,Dimethyl sulfide transport via diffusion (extracellular to periplasm)
+rxn08386_c0,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:1)
+rxn08387_c0,enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1)
+rxn08390_c0,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:1)
+rxn08391_c0,enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1)
+rxn08392_c0,trans hexadecenoyl-[acp] reductase
+rxn08393_c0,"trans hexadecenoyl-[acp] reductase (NADPH, B-specific)"
+rxn08394_c0,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:1)
+rxn08395_c0,enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1)
+rxn08398_c0,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1)
+rxn08399_c0,enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1)
+rxn08428_c0,ethanol transport via diffusion (extracellular to periplasm)
+rxn08433_c0,R08158
+rxn08434_c0,R08159
+rxn08438_c0,R08157
+rxn08439_c0,decanoyl-CoA hydrolase
+rxn08440_c0,lauroyl-CoA hydrolase
+rxn08441_c0,myristoyl-CoA hydrolase
+rxn08444_c0,Stearoyl-CoA hydrolase
+rxn08448_c0,fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling)
+rxn08449_c0,fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A coupling)
+rxn08450_c0,fatty-acid-CoA ligase (tetradecanoate transport via vectoral Co-A coupling)
+rxn08451_c0,fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)
+rxn08452_c0,fatty-acid-CoA ligase (hexadecanoate transport via vectoral Co-A coupling)
+rxn08453_c0,fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)
+rxn08454_c0,fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupling)
+rxn08455_c0,fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling)
+rxn08456_c0,fatty-acid-CoA ligase (hexanoate transport via vectoral Co-A coupling)
+rxn08457_c0,fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling)
+rxn08461_c0,formaldehyde transport via diffusion (extracellular to periplasm)
+rxn08473_c0,Transport of Fe2+
+rxn08474_c0,RXN0-6.cp
+rxn08524_c0,"formate transport via proton symport (uptake only, periplasm)"
+rxn08527_c0,fumarate reductase
+rxn08528_c0,fumarate reductase
+rxn08546_c0,glycerol-3-phosphate acyltransferase (C12:0)
+rxn08547_c0,glycerol-3-phosphate acyltransferase (C14:0)
+rxn08549_c0,glycerol-3-phosphate acyltransferase (C16:0)
+rxn08550_c0,glycerol-3-phosphate acyltransferase (C16:1)
+rxn08551_c0,glycerol-3-phosphate acyltransferase (C18:0)
+rxn08559_c0,sn-glycerol-3-phosphoethanolamine transport via ABC system (periplasm)
+rxn08561_c0,sn-glycerol-3-phosphoglycerol transport via ABC system (periplasm)
+rxn08582_c0,aldose-1-epimerase
+rxn08583_c0,galactosyltransferase I (LPS core synthesis)
+rxn08592_c0,D-glucosamine transport via PEP:Pyr PTS (periplasm)
+rxn08598_c0,GDPPYPHOSKIN-RXN.c
+rxn08599_c0,GDP-mannose mannosyl hydrolase
+rxn08618_c0,glucosyltransferase I (LPS core synthesis)
+rxn08619_c0,glucosyltransferase II (LPS core synthesis)
+rxn08620_c0,glucosyltransferase III (LPS core synthesis)
+rxn08624_c0,ABC-12-RXN.cp
+rxn08631_c0,"L-glutamate transport via proton symport, reversible (periplasm)"
+rxn08635_c0,Glyceraldehyde transport via diffusion (extracellular to periplasm)
+rxn08652_c0,glycolate transport via sodium symport (periplasm)
+rxn08660_c0,TRANS-RXN-62B.cp
+rxn08661_c0,glycine transport in via sodium symport (periplasm)
+rxn08669_c0,Glycerophosphodiester phosphodiesterase
+rxn08670_c0,glutaredoxin reductase
+rxn08671_c0,guanosine transport in via proton symport (periplasm)
+rxn08685_c0,hydrogen peroxide transport via diffusion (external)
+rxn08689_c0,h2s transport (periplasm)
+rxn08691_c0,hydrogen transport via diffusion (extracellular to periplasm)
+rxn08708_c0,LPS heptose kinase I (LPS core synthesis)
+rxn08709_c0,LPS heptose kinase II (LPS core synthesis)
+rxn08710_c0,RXN0-5118.c
+rxn08711_c0,RXN0-5061.c
+rxn08712_c0,heptosyltransferase III (LPS core synthesis)
+rxn08713_c0,heptosyltransferase IV (LPS core synthesis)
+rxn08715_c0,Mercury (Hg+2) ABC transporter (periplasm)
+rxn08719_c0,L-histidine reversible transport via proton symport (periplasm)
+rxn08745_c0,ABC-15-RXN.cp
+rxn08751_c0,Indole transport via diffusion (extracellular to periplasm)
+rxn08756_c0,isopentenyl-diphosphate:NAD+ oxidoreductase
+rxn08762_c0,K(+)-importing ATPase
+rxn08764_c0,ketol-acid reductoisomerase (2-Acetolactate)
+rxn08766_c0,Beta-ketoacyl-ACP synthase
+rxn08784_c0,ABC-35-RXN.cp
+rxn08787_c0,ATP phosphohydrolase (lipopolysaccharide-exporting)
+rxn08796_c0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C12:0) (periplasm)"
+rxn08799_c0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:0) (periplasm)"
+rxn08802_c0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:1) (periplasm)"
+rxn08804_c0,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:0) (periplasm)"
+rxn08805_c0,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:1) (periplasm)"
+rxn08806_c0,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:0) (periplasm)"
+rxn08812_c0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:1) (periplasm)"
+rxn08813_c0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:0) (periplasm)"
+rxn08814_c0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:1) (periplasm)"
+rxn08816_c0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:1) (periplasm)"
+rxn08819_c0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:1)"
+rxn08820_c0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:0)"
+rxn08824_c0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C12:0)"
+rxn08829_c0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C18:0)"
+rxn08831_c0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C12:0)"
+rxn08836_c0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C18:0)"
+rxn08841_c0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:0)"
+rxn08842_c0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:1)"
+rxn08845_c0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C12:0)"
+rxn08846_c0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:0)"
+rxn08848_c0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:0)"
+rxn08853_c0,ABC-3-RXN.cp
+rxn08857_c0,Lysyl-tRNA synthetase
+rxn08865_c0,TRANS-RXN-121A.cp
+rxn08866_c0,Malate transport via proton symport (3 H) (periplasm)
+rxn08877_c0,TRANS-RXN0-504.cp
+rxn08890_c0,"murein D,D-carboxypeptidase (murein5px4p) (periplasm)"
+rxn08891_c0,"murein D,D-carboxypeptidase (murein5px4px4p) (periplasm)"
+rxn08892_c0,"murein D,D-carboxypeptidase (murein5p5p) (periplasm)"
+rxn08893_c0,"murein D,D-carboxypeptidase (murein5p4p) (periplasm)"
+rxn08894_c0,"murein D,D-carboxypeptidase (murein5p3p) (periplasm)"
+rxn08900_c0,FAD-dependent malate dehydrogenase
+rxn08901_c0,Malate dehydrogenase (menaquinone 8 as acceptor)
+rxn08909_c0,RXN0-4522.cp
+rxn08921_c0,magnesium (Mg+2) transport in/out via proton antiport (periplasm)
+rxn08924_c0,Mg2+-importing ATPase
+rxn08948_c0,mannose 6-phosphate phosphatase
+rxn08954_c0,3-deoxy-D-manno-octulosonic acid transferase III (LPS core biosynthesis)
+rxn08956_c0,molybdate transport via diffusion (extracellular to periplasm)
+rxn08966_c0,nitrious oxide transport via diffusion (extracellular to periplasm)
+rxn08971_c0,NADH dehydrogenase (menaquinone-8 & 0 protons)
+rxn08972_c0,NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm)
+rxn08973_c0,NADH dehydrogenase (menaquinone-8 & 3 protons) (periplasm)
+rxn08974_c0,NADH dehydrogenase (demethylmenaquinone-8 & 3 protons) (periplasm)
+rxn08975_c0,dihydronicotinamide adenine dinucleotide-coenzyme Q reductase
+rxn08976_c0,quinone reductase
+rxn08981_c0,nicotinic acid mononucleotide pyrophosphorylase
+rxn08989_c0,Nickle (Ni+2) ABC transporter (periplasm)
+rxn08990_c0,nickle (Ni+2) transport out via proton antiport (periplasm)
+rxn09008_c0,nitric oxide transport via diffusion (extracellular to periplasm)
+rxn09010_c0,5'-nucleotidase (dIMP) (periplasm)
+rxn09011_c0,nucleoside-triphosphatase (dITP)
+rxn09012_c0,RXN0-5074.c
+rxn09037_c0,"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 5 isopentenyl units)"
+rxn09039_c0,2-OCTAPRENYL-METHOXY-BENZOQ-METH-RXN.c
+rxn09040_c0,"2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase"
+rxn09042_c0,2-octaprenyl-6-methoxyphenol hydroxylase
+rxn09066_c0,"Phosphatidate phosphatase (periplasmic, n-C16:1)"
+rxn09069_c0,phosphoadenylyl-sulfate reductase (glutaredoxin)
+rxn09071_c0,pyridoxine 5'-phosphate oxidase (anaerboic
+rxn09082_c0,phosphoethanolamine transferase (c-C16:1)
+rxn09083_c0,phosphoethanolamine transferase (c-C16:1)
+rxn09101_c0,"phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)"
+rxn09104_c0,"phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:0)"
+rxn09105_c0,"phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:1)"
+rxn09106_c0,"phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:0)"
+rxn09107_c0,"phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:1)"
+rxn09108_c0,Phosphatidylglycerol synthase (n-C12:0)
+rxn09109_c0,Phosphatidylglycerol synthase (n-C14:0)
+rxn09110_c0,Phosphatidylglycerol synthase (n-C14:1)
+rxn09111_c0,Phosphatidylglycerol synthase (n-C16:0)
+rxn09112_c0,Phosphatidylglycerol synthase (n-C16:1)
+rxn09113_c0,Phosphatidylglycerol synthase (n-C18:0)
+rxn09114_c0,Phosphatidylglycerol synthase (n-C18:1)
+rxn09115_c0,heme-transporting ATPase
+rxn09119_c0,Phytase (periplasm)
+rxn09120_c0,TRANS-RXN-114.cp
+rxn09122_c0,ABC-27-RXN.cp
+rxn09125_c0,"Phospholipase A1 (phosphatidate, n-C14:1) (periplasm)"
+rxn09126_c0,"Phospholipase A1 (phosphatidate, n-C16:0) (periplasm)"
+rxn09127_c0,"Phospholipase A1 (phosphatidate, n-C16:1) (periplasm)"
+rxn09128_c0,"Phospholipase A1 (phosphatidate, n-C18:0) (periplasm)"
+rxn09129_c0,"Phospholipase A1 (phosphatidate, n-C18:1) (periplasm)"
+rxn09130_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C12:0) (periplasm)"
+rxn09131_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C14:0) (periplasm)"
+rxn09132_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C14:1) (periplasm)"
+rxn09133_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C16:0) (periplasm)"
+rxn09134_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C16:1) (periplasm)"
+rxn09135_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C18:0) (periplasm)"
+rxn09136_c0,"Phospholipase A1 (phosphatidylethanolamine, n-C18:1) (periplasm)"
+rxn09137_c0,"Phospholipase A1 (phosphatidylglycerol, n-C12:0) (periplasm)"
+rxn09138_c0,"Phospholipase A1 (phosphatidylglycerol, n-C14:0) (periplasm)"
+rxn09139_c0,"Phospholipase A1 (phosphatidylglycerol, n-C14:1) (periplasm)"
+rxn09140_c0,"Phospholipase A1 (phosphatidylglycerol, n-C16:0) (periplasm)"
+rxn09141_c0,"Phospholipase A1 (phosphatidylglycerol, n-C16:1) (periplasm)"
+rxn09142_c0,"Phospholipase A1 (phosphatidylglycerol, n-C18:0) (periplasm)"
+rxn09143_c0,"Phospholipase A1 (phosphatidylglycerol, n-C18:1) (periplasm)"
+rxn09144_c0,"Phospholipase A2 (phosphatidate, n-C12:0) (periplasm)"
+rxn09145_c0,"Phospholipase A2 (phosphatidate, n-C14:0) (periplasm)"
+rxn09146_c0,"Phospholipase A2 (phosphatidate, n-C14:1) (periplasm)"
+rxn09147_c0,"Phospholipase A2 (phosphatidate, n-C16:0) (periplasm)"
+rxn09148_c0,"Phospholipase A2 (phosphatidate, n-C16:1) (periplasm)"
+rxn09149_c0,"Phospholipase A2 (phosphatidate, n-C18:0) (periplasm)"
+rxn09150_c0,"Phospholipase A2 (phosphatidate, n-C18:1) (periplasm)"
+rxn09152_c0,"Phospholipase A2 (phosphatidylethanolamine, n-C14:0) (periplasm)"
+rxn09153_c0,"Phospholipase A2 (phosphatidylethanolamine, n-C14:1) (periplasm)"
+rxn09154_c0,"Phospholipase A2 (phosphatidylethanolamine, n-C16:0) (periplasm)"
+rxn09155_c0,"Phospholipase A2 (phosphatidylethanolamine, n-C16:1) (periplasm)"
+rxn09157_c0,"Phospholipase A2 (phosphatidylethanolamine, n-C18:1) (periplasm)"
+rxn09160_c0,"Phospholipase A2 (phosphatidylglycerol, n-C14:1) (periplasm)"
+rxn09161_c0,"Phospholipase A2 (phosphatidylglycerol, n-C16:0) (periplasm)"
+rxn09162_c0,"Phospholipase A2 (phosphatidylglycerol, n-C16:1) (periplasm)"
+rxn09163_c0,"Phospholipase A2 (phosphatidylglycerol, n-C18:0) (periplasm)"
+rxn09164_c0,"Phospholipase A2 (phosphatidylglycerol, n-C18:1) (periplasm)"
+rxn09165_c0,TRANS-RXN-117.cp
+rxn09169_c0,propanal transport via diffusion (extracellular to periplasm)
+rxn09176_c0,polyphosphate kinase
+rxn09177_c0,(R)-4'-Phosphopantothenate:L-cysteine ligase
+rxn09191_c0,TRANS-RXN-29.cp
+rxn09192_c0,TRANS-RXN-118.cp
+rxn09197_c0,Phosphatidylserine decarboxylase (n-C12:0)
+rxn09198_c0,Phosphatidylserine decarboxylase (n-C14:0)
+rxn09199_c0,Phosphatidylserine decarboxylase (n-C14:1)
+rxn09200_c0,Phosphatidylserine decarboxylase (n-C16:0)
+rxn09201_c0,Phosphatidylserine decarboxylase (n-C16:1)
+rxn09202_c0,Phosphatidylserine decarboxylase (n-C18:0)
+rxn09203_c0,Phosphatidylserine decarboxylase (n-C18:1)
+rxn09205_c0,Phosphatidylserine syntase (n-C12:0)
+rxn09206_c0,Phosphatidylserine syntase (n-C14:0)
+rxn09207_c0,Phosphatidylserine syntase (n-C14:1)
+rxn09208_c0,Phosphatidylserine syntase (n-C16:0)
+rxn09209_c0,Phosphatidylserine syntase (n-C16:1)
+rxn09210_c0,Phosphatidylserine syntase (n-C18:0)
+rxn09211_c0,Phosphatidylserine syntase (n-C18:1)
+rxn09213_c0,ABC-25-RXN.cp
+rxn09225_c0,rhamnosyltransferase I (LPS core biosynthesis)
+rxn09244_c0,selenophosphate:L-seryl-tRNASec selenium transferase
+rxn09247_c0,RXN0-4083.cp
+rxn09263_c0,ABC-24-RXN.cp
+rxn09269_c0,TRANS-RXN-121.cp
+rxn09270_c0,succinate transport out via proton antiport (periplasm)
+rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)"
+rxn09304_c0,TRANS-RXN-244.cp
+rxn09306_c0,L-threonine  via sodium symport (periplasm)
+rxn09317_c0,Trimethylamine N-oxide transport via diffusion (extracellular to periplasm)
+rxn09338_c0,TRANS-RXN-77.cp
+rxn09373_c0,ABC-36-RXN.cp
+rxn09377_c0,transport of xanthine
+rxn09388_c0,Zn2+-exporting ATPase
+rxn09389_c0,TRANS-RXN0-200.cp
+rxn09417_c0,Succinic dehydrogenase
+rxn09422_c0,"fatty acyl-ACP synthase (n-C8:0ACP), mitochondrial, lumped reaction"
+rxn09423_c0,fatty acid synthase (n-C26:0)
+rxn09427_c0,fatty-acyl-CoA synthase (n-C18:0CoA)
+rxn09429_c0,fatty acid synthase (n-C18:0)
+rxn09444_c0,octanoyl-CoA ligase
+rxn09447_c0,fatty-acid--CoA ligase (octadecynoate)
+rxn09449_c0,acyl-coenzyme A ligase
+rxn09452_c0,acyl-coenzyme A ligase
+rxn09453_c0,RXN-13614.c
+rxn09456_c0,R08163
+rxn09461_c0,"3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosyl-CoA), peroxisomal"
+rxn09463_c0,"fatty acid oxidation (tetradecansoyl-CoA), peroxisomal"
+rxn09473_c0,"3-hydroxyacyl-CoA dehydratase (3-hydroxyhexacosyl-CoA), peroxisomal"
+rxn09474_c0,"acyl-CoA oxidase (hexacanoyl-CoA), peroxisomal"
+rxn09475_c0,acyl-CoA oxidase
+rxn09476_c0,acyl-CoA oxidase
+rxn09477_c0,acyl-CoA oxidase
+rxn09478_c0,acyl-CoA oxidase
+rxn09479_c0,acyl-CoA oxidase
+rxn09480_c0,"acetyl-CoA acyltransferase (tetracosanoyl-CoA), peroxisomal"
+rxn09516_c0,nucleoside triphosphate phosphohydrolase
+rxn09523_c0,Complex I dehydrogenase
+rxn09602_c0,"alkaline ceramidase (ceramide-2), endoplasmic reticulum"
+rxn09655_c0,TRANS-RXNAVI-26524.ce.brachyexp.TREHALOSE_TREHALOSE
+rxn09657_c0,Thiamine transporter
+rxn09663_c0,TRANS-RXNAVI-26524.ce.brachyexp.CPD-10330_CPD-10330
+rxn09673_c0,TRANS-RXNAVI-26524.ce.brachyexp.CPD-3609_CPD-3609
+rxn09678_c0,TRANS-RXNBWI-115637.ce.maizeexp.GLN_GLN
+rxn09681_c0,D-fructose transport in via proton symport
+rxn09690_c0,TRANS-RXNBWI-115637.ce.maizeexp.CYS_CYS
+rxn09703_c0,"phosphatidylserine Golgi transport, yeast-specific"
+rxn09704_c0,"phosphatidylethanolamine Golgi transport, yeast-specific"
+rxn09708_c0,tyrosine mitochondrial transport via proton symport
+rxn09723_c0,Mitochondrial phosphate carrier protein
+rxn09810_c0,"phosphatidyl-1D-myo-insoitol nuclear transport, yeast-specific"
+rxn09811_c0,phosphate nuclear transport via proton symport
+rxn09814_c0,glutamine nuclear transport via proton symport
+rxn09831_c0,tyrosine peroxisomal transport via proton symport
+rxn09841_c0,fatty acid peroxisomal transport
+rxn09842_c0,fatty acid peroxisomal transport
+rxn09882_c0,RXN-5581.c.metaexp.NADP_NADPH
+rxn09886_c0,cysteine synthase (Selenide)
+rxn09889_c0,"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)"
+rxn09948_c0,O-succinylhomoserine lyase (methanethiol)
+rxn09956_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09958_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09960_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09972_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09973_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09974_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09975_c0,1-octanal dehydrogenase (NAD+)
+rxn09977_c0,aldehyde dehydrogenase [NAD(P)+]
+rxn09991_c0,"3-phytase, extracellular"
+rxn10019_c0,fatty-acid--CoA ligase (Iso-C16:1)
+rxn10020_c0,fatty-acid--CoA ligase (anteiso-C17:1)
+rxn10021_c0,fatty-acid--CoA ligase (Iso-C17:1)
+rxn10029_c0,b-ketoacyl synthetase (octadecanoate)
+rxn10043_c0,cytochrome-c oxidase (H+/e- = 2)
+rxn10053_c0,phosphoribosylaminoimidazole carboxylase (ATP-dependent)
+rxn10056_c0,NAD kinase (GTP)
+rxn10057_c0,NAD kinase (dATP)
+rxn10058_c0,NAD kinase (dGTP)
+rxn10059_c0,NAD kinase (dCTP)
+rxn10060_c0,NAD kinase (dTTP)
+rxn10077_c0,ethanolamine phosphotransferase
+rxn10096_c0,Cardiolipin Synthase (E.coli)
+rxn10097_c0,Fatty acid biosynthesis (n-C14:0)
+rxn10098_c0,Fatty acid biosynthesis (n-C12:0)
+rxn10107_c0,Phosphatidylglycerol phosphate phosphatase (Ecoli)
+rxn10110_c0,Phosphatidylserine decarboxylase (Ecoli)
+rxn10111_c0,Phosphatidylserine syntase (Ecoli)
+rxn10123_c0,NADH dehydrogenase (menaquinone-8 & 2 protons)
+rxn10124_c0,NADH dehydrogenase (demethylmenaquinone-8 & 2.8 protons)
+rxn10138_c0,Succinate transport via ABC system
+rxn10186_c0,L-threonine  via sodium symport
+rxn10191_c0,D-alanine-poly(phosphoribitol) ligase
+rxn10194_c0,Teichoic acid (unsubstituted) export
+rxn10195_c0,Teichoic acid (glucose substituted) export
+rxn10196_c0,Teichoic acid (D-alanine substituted) export
+rxn10199_c0,Peptidoglycan subunit synthesis
+rxn10202_c0,glycerol-3-phosphate: acyl-coa acyltransferase (16:0)
+rxn10204_c0,acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
+rxn10205_c0,isoheptadecanoyl-glycerol-3-phosphate O-acyltransferase
+rxn10206_c0,anteisoheptadecanoyl-glycerol-3-phosphate O-acyltransferase
+rxn10208_c0,isopentadecanoyl-glycerol-3-phosphate O-acyltransferase
+rxn10211_c0,palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase
+rxn10213_c0,stearoyl-1-acylglycerol-3-phosphate O-acyltransferase
+rxn10214_c0,isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase
+rxn10215_c0,anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase
+rxn10217_c0,isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase
+rxn10220_c0,isoheptadecanoyl-phosphatidate cytidylyltransferase
+rxn10221_c0,anteisoheptadecanoyl-phosphatidate cytidylyltransferase
+rxn10223_c0,isopentadecanoyl-phosphatidate cytidylyltransferase
+rxn10226_c0,isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase
+rxn10227_c0,anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase
+rxn10228_c0,isotetradecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase
+rxn10229_c0,isopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase
+rxn10232_c0,isoheptadecanoyl-phosphatidylserine decarboxylase
+rxn10233_c0,anteisoheptadecanoyl-phosphatidylserine decarboxylase
+rxn10234_c0,isotetradecanoyl-phosphatidylserine decarboxylase
+rxn10235_c0,isopentadecanoyl-phosphatidylserine decarboxylase
+rxn10236_c0,anteisopentadecanoyl-phosphatidylserine decarboxylase
+rxn10237_c0,isohexadecanoyl-phosphatidylserine decarboxylase
+rxn10239_c0,anteisoheptadecanoyl-phosphatidic acid phosphatase
+rxn10241_c0,isopentadecanoyl-phosphatidic acid phosphatase
+rxn10254_c0,anteisoheptadecanoyl-Diacylglycerol kinase
+rxn10256_c0,isopentadecanoyl-Diacylglycerol kinase
+rxn10259_c0,isoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase
+rxn10260_c0,anteisoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase
+rxn10262_c0,isopentadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase
+rxn10265_c0,isoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase
+rxn10266_c0,anteisoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase
+rxn10268_c0,isopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase
+rxn10275_c0,anteisoheptadecanoyl-UDP-glucosyltransferase (diglucosyl)
+rxn10277_c0,isopentadecanoyl-UDP-glucosyltransferase (diglucosyl)
+rxn10284_c0,anteisoheptadecanoyl-UDP-glucosyltransferase (monoglucosyl)
+rxn10286_c0,isopentadecanoyl-UDP-glucosyltransferase (monoglucosyl)
+rxn10293_c0,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted"
+rxn10295_c0,"isopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted"
+rxn10322_c0,"isopentadecanoyl-lipoteichoic acid synthesis (n=24), unlinked, D-alanine substituted"
+rxn10336_c0,stearoyl-cardiolipin synthase
+rxn10337_c0,isoheptadecanoyl-cardiolipin synthase
+rxn10338_c0,anteisoheptadecanoyl-cardiolipin synthase
+rxn10340_c0,isopentadecanoyl-cardiolipin synthase
+rxn10344_c0,Lead (Pb+2) ABC transporter
+rxn10404_c0,fatty-acid--CoA ligase (Iso-C14:0)
+rxn10405_c0,fatty-acid--CoA ligase (anteiso-C15:0)
+rxn10406_c0,fatty-acid--CoA ligase (Iso-C15:0)
+rxn10407_c0,fatty-acid--CoA ligase (Iso-C16:0)
+rxn10409_c0,fatty-acid--CoA ligase (Iso-C17:0)
+rxn10432_c0,R08198
+rxn10440_c0,archaetidylserine decarboxylase
+rxn10447_c0,calcium transport via ABC system
+rxn10453_c0,cadmium transport in via ABC system
+rxn10457_c0,CDP-2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glycerol synthase
+rxn10470_c0,Methanethiol Transport
+rxn10471_c0,Methane Transport
+rxn10480_c0,CO transporter via diffusion
+rxn10481_c0,Copper transport via ABC system
+rxn10506_c0,"2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase"
+rxn10537_c0,glycine reversible transport via sodium symport
+rxn10553_c0,hydroxyarchaetidylserine decarboxylase
+rxn10558_c0,H+/K+ gastric/non-gastric P-ATPase and ABC ATPase
+rxn10570_c0,Methanol diffusion
+rxn10577_c0,"Nitrogen exchange, diffusion"
+rxn10578_c0,Na+/K+-exchanging ATPase
+rxn10583_c0,nucleoside triphosphate phosphohydrolase
+rxn10584_c0,nucleoside triphosphate phosphohydrolase
+rxn10621_c0,sirohydrochlorin dehydrogenase (NAD)
+rxn10623_c0,sirohydrochlorin ferrochetalase
+rxn10638_c0,Hexanoic Acid CoA Ligase
+rxn10664_c0,tetra-arabinofuranoside synthesis
+rxn10666_c0,hexa-arabinofuranoside synthesis
+rxn10686_c0,gdp mannosyl phosphate transferase
+rxn10687_c0,galactofuranose transferse (M tb)
+rxn10690_c0,arabinofuranosyl transferase (M tb)
+rxn10695_c0,arabinofuranosyl extension (M tb)
+rxn10719_c0,arabinan complex formation (M tb)
+rxn10785_c0,"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 7 isopentenyl units)"
+rxn10818_c0,L-lactate transport out via proton antiport
+rxn10820_c0,TRANS-RXN-188.ce
+rxn10822_c0,L-arabinose transport via ABC system
+rxn10832_c0,CoA transporter
+rxn10833_c0,ATP phosphohydrolase (disaccharide-importing)
+rxn10839_c0,ATP phosphohydrolase (disaccharide-importing)
+rxn10860_c0,formate transport out via proton antiport
+rxn10862_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn10883_c0,ATP phosphohydrolase (polar-amino-acid-importing)
+rxn10901_c0,FUMt3
+rxn10954_c0,Fatty acid biosynthesis (n-C18:0)
+rxn10985_c0,MDH4
+rxn11007_c0,TMDSf
+rxn11132_c0,malolactic enzyme
+rxn11140_c0,rxn11140
+rxn11158_c0,ammonia transporter
+rxn11196_c0,acetyl-CoA carboxylase carboxyl transferase subunit alpha
+rxn11216_c0,betaine ABC transporter permease and substrate binding protein
+rxn11245_c0,RXN-13158.c
+rxn11381_c0,BHBDCLOS-RXN.c
+rxn11551_c0,galactitol:NAD+ 1-oxidoreductase
+rxn11552_c0,galactitol:NADP+ 1-oxidoreductase
+rxn11553_c0,Dolichyl-beta-D-mannosyl-phosphate dolichylphosphohydrolase
+rxn11577_c0,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase
+rxn11663_c0,4-(phosphonooxy)threonine:NAD oxidoreductase
+rxn11710_c0,Icosanoyl-CoA hydrolase
+rxn11711_c0,Oleoyl-CoA hydrolase
+rxn11712_c0,Linoleoyl-CoA hydrolase
+rxn11713_c0,R08178
+rxn11714_c0,R08179
+rxn11715_c0,R08180
+rxn11716_c0,R08181
+rxn11717_c0,R08182
+rxn11718_c0,R08183
+rxn11732_c0,R08198
+rxn11735_c0,R08201
+rxn11756_c0,alpha-fluoro-beta-ureidopropionic acid amidohydrolase
+rxn11759_c0,5-fluorouridine monophosphate:diphosphate phospho-alpha-D-ribosyl-transferase
+rxn11761_c0,ATP:5-fluorodeoxyuridine 5'-phosphotransferase
+rxn11765_c0,6-thioinosine 5'-monophosphate:diphosphate phospho-D-ribosyltransferase
+rxn11766_c0,6-methylthiopurine 5'-monophosphate ribonucleotide:diphosphate phospho-D-ribosyltransferase
+rxn11768_c0,6-thioinosine 5'-monophosphate:NAD+ oxidoreductase
+rxn11771_c0,inosine triphosphate pyrophosphatase
+rxn11772_c0,6-thioxanthine 5'-monophosphate:L-glutamine amido-ligase (AMP-forming)
+rxn11773_c0,6-thioguanosine monophosphate:diphosphate phospho-D-ribosyltransferase
+rxn11810_c0,carboxyphosphamide:NAD+ oxidoreductase
+rxn11811_c0,carboxyphosphamide:NADP+ oxidoreductase
+rxn11835_c0,3-carbamoyl-2-phenylpropionaldehyde:NAD+ oxidoreductase
+rxn11875_c0,didemethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn11896_c0,retinal:NAD+ oxidoreductase
+rxn11954_c0,"androstenedione,reduced-flavoprotein:oxygen 19-oxidoreductase"
+rxn11958_c0,"testosterone,reduced-flavoprotein:oxygen 19-oxidoreductase"
+rxn11962_c0,R02670
+rxn11966_c0,11-epi-Prostaglandin F2alpha:NADP+ 11-oxidoreductase
+rxn11973_c0,ferrocytochrome:nitrate oxidoreductase
+rxn11974_c0,UTP:UTP-monosaccharide-1-phosphate uridylyltransferase
+rxn11992_c0,R03697
+rxn11997_c0,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase
+rxn12000_c0,"19-hydroxyandrostenedione,reduced-flavoprotein:oxygen 19-oxidoreductase"
+rxn12001_c0,"19-hydroxytestosterone,reduced-flavoprotein:oxygen 19-oxidoreductase"
+rxn12003_c0,R04951
+rxn12008_c0,R05611
+rxn12029_c0,R08257
+rxn12032_c0,R08265
+rxn12038_c0,Citalopram:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn12039_c0,Demethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing)
+rxn12042_c0,glutathione:spermine ligase (ADP-forming)
+rxn12043_c0,glutathione:glutathionylspermine ligase (ADP-forming)
+rxn12044_c0,glutathione:aminopropylcadaverine ligase (ADP-forming)
+rxn12045_c0,glutathione:glutathionylaminopropylcadaverine ligase (ADP-forming)
+rxn12193_c0,3-isopropylmalate dehydratase
+rxn12204_c0,"alpha-D-glucose 1,6-phosphomutase"
+rxn12220_c0,coproporphyrinogen oxidase
+rxn12221_c0,sirohydrochlorin ferrochelatase
+rxn12282_c0,RXN-9644.c
+rxn12365_c0,transport of lactate [extraorganism-cytosol](secondary symport)
+rxn12366_c0,transport of d-lactate [extraorganism-cytosol](secondary symport)
+rxn12367_c0,transport of glycolate [extraorganism-cytosol](secondary symport)
+rxn12371_c0,transport of citrate [extraorganism-cytosol](secondary symport)
+rxn12375_c0,transport of betaine [extraorganism-cytosol](secondary symport)
+rxn12423_c0,transport of fumarate [extraorganism-cytosol](secondary symport)
+rxn12427_c0,transport of guanosine [extraorganism-cytosol](secondary symport)
+rxn12435_c0,transport of benzoate [periplasm-cytosol](secondary symport) irreversible
+rxn12440_c0,transport of xanthine [extraorganism-cytosol](secondary symport)
+rxn12446_c0,transport of malate [extraorganism-cytosol](secondary symport) TDT family
+rxn12448_c0,transport of na+ [extraorganism-cytosol](secondary antiport)
+rxn12451_c0,transport of l-proline [extraorganism-cytosol](secondary symport)
+rxn12456_c0,transport of l-threonine [cytosol-extraorganism](secondary antiport)
+rxn12459_c0,transport of l-tyrosine [extraorganism-cytosol](secondary symport)
+rxn12494_c0,ubiquinol oxidase
+rxn12504_c0,transport of fe+2 [extraorganism-cytosol](secondary symport)
+rxn12510_c0,ATP:pantothenate 4'-phosphotransferase
+rxn12512_c0,(R)-4'-Phosphopantothenate:L-cysteine ligase
+rxn12526_c0,D-Glucosamine transport via proton antiport
+rxn12529_c0,TRANS-RXNAVI-26524.ce.brachyexp.GLYCEROL_GLYCEROL
+rxn12554_c0,Taurine transport via proton symport
+rxn12562_c0,Itaconate transport via proton symport
+rxn12574_c0,D-Arabinose transport via proton symport
+rxn12635_c0,RXN0-6974.c
+rxn12649_c0,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase"
+rxn12674_c0,Enoyl-CoA hydratase/aldolase
+rxn12681_c0,Vanillin: NAD oxidoreductase (34dhbald)
+rxn12767_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase
+rxn12768_c0,(R)-Hydroxyacyl-CoA:NADP oxidoreductase
+rxn12769_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase
+rxn12770_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase
+rxn12771_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase
+rxn12778_c0,adenine phosphoribosyltransferase
+rxn12811_c0,sulfate transport via sodium symport
+rxn12822_c0,L-glutamate:ferredoxin oxidoreductase (transaminating)
+rxn12858_c0,Aureobasidin A resistance protein
+rxn12859_c0,Aureobasidin A resistance protein
+rxn12883_c0,Mannosyl phosphorylinositol ceramide synthase regulatory protein CSG2
+rxn12897_c0,urea carboxylase
+rxn13014_c0,Inositolphosphotransferase 1
+rxn13015_c0,Inositol phosphosphingolipids phospholipase C
+rxn13017_c0,Inositol phosphosphingolipids phospholipase C
+rxn13018_c0,Inositol phosphosphingolipids phospholipase C
+rxn13027_c0,Phosphoadenosine phosphosulfate reductase
+rxn13085_c0,Spermidine synthase
+rxn13116_c0,"Transport of sulfate, mitochondrial"
+rxn13123_c0,"Transport of phosphatidate, mitochondrial"
+rxn13152_c0,"Acyl-[acyl-carrier-protein] transporter, mitochondrial"
+rxn13153_c0,"Acyl-[acyl-carrier-protein] transporter, mitochondrial"
+rxn13211_c0,Acetaldehyde condensation
+rxn13238_c0,ceramide-2 (C26) endoplasmic reticular transport
+rxn13243_c0,coenzyme A transport (Mitochondrial)
+rxn13308_c0,hydrogen peroxide nuclear transport
+rxn13314_c0,L-histidine transport in via proton antiport (vacuolar)
+rxn13361_c0,NAD(+) transport (Peroxisomal membrane)
+rxn13395_c0,sirohydrochlorin dehydrogenase
+rxn13438_c0,CDP-diacylglycerol-inositon-3-phosphatidyltransferase
+rxn13477_c0,"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 3 isopentenyl units)"
+rxn13518_c0,phospholipase-C
+rxn13649_c0,5'-deoxyadenosine nuclosidase
+rxn13667_c0,b-ketoacyl synthetase (Iso-C14:0)
+rxn13668_c0,b-ketoacyl synthetase (Iso-C15:0)
+rxn13669_c0,b-ketoacyl synthetase (C15:0)
+rxn13671_c0,b-ketoacyl synthetase (Iso-C16:0)
+rxn13673_c0,b-ketoacyl synthetase (C17:0)
+rxn13688_c0,cytochrome-c oxidase (2 protons translocated)
+rxn13690_c0,dihydro or otate dehydrogenase
+rxn13691_c0,dihydro or otate dehydrogenase
+rxn13706_c0,succinate dehydrogenase (menaquinol 7:0 proton)
+rxn13707_c0,succinate dehydrogenase (methylmenaquinol 7: 0proton)
+rxn13726_c0,NADH-DEHYDROG-A-RXN.ce.cornexp.CPD-9956_UBIQUINONE-8
+rxn13727_c0,NADH dehydrogenase (menaquinone-7 & 4 protons)
+rxn13729_c0,NADH dehydrogenase (methylmenaquinone-7 & 4 protons)
+rxn13734_c0,Nitrite Reductase
+rxn13735_c0,Nitrite Reductase
+rxn13741_c0,proline oxidase
+rxn13753_c0,NADH-Ubiquinone Oxid or eductase (Na+ translocating)
+rxn13759_c0,Arsenite transp or ter
+rxn13766_c0,ATP synthase (three protons for one ATP)
+rxn13773_c0,Isopentenyl phosphate isomerase
+rxn13788_c0,1-pyrroline dehydrogenase
+rxn13794_c0,4-Aminobutyrate transport via ABC system
+rxn13812_c0,L-aspartate oxidase
+rxn13849_c0,D-mannose transport via ABC system
+rxn13853_c0,TRANS-RXNAVI-26732.ce.brachyexp.MANNITOL_MANNITOL
+rxn13961_c0,"Parathion,reduced-flavoprotein:oxygen oxidoreductase"
+rxn13990_c0,ATP:N-acetyl-D-glucosamine 1-phosphotransferase
+rxn14012_c0,(E)-nonaprenyl-diphosphate:isopentenyl-diphosphate nonaprenyltranstransferase
+rxn14044_c0,L-fucose:NAD+ 1-oxidoreductase
+rxn14050_c0,S-sulfanylglutathione:oxygen oxidoreductase
+rxn14087_c0,acetyl-[acyl-carrier-protein]: malonate S-[acyl-carrier-protein]transferase
+rxn14120_c0,"5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase"
+rxn14123_c0,gamma-Glutamyl-beta-aminopropiononitrile amidohydrolase
+rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous)
+rxn14215_c0,"(2E,6E)-farnesyl-diphosphate diphosphate-lyase [(E)-beta-farnesene-forming]"
+rxn14216_c0,S-adenosyl-L-methionine:tRNA 5-methylaminomethyl-2-thiouridine methyltransferase
+rxn14245_c0,2-Aminoacrylate aminohydrolase
+rxn14246_c0,L-homocysteine hydrogen-sulfide-lyase
+rxn14256_c0,beta-D-mannoside mannohydrolase
+rxn14263_c0,futalosine ribohydrolase
+rxn14289_c0,Androstenedione 7alpha-hydroxylase
+rxn14299_c0,(S)-dihydroorotate:quinone oxidoreductase
+rxn14322_c0,5alpha-Dihydrodeoxycorticosterone:NADP+ 5-oxidoreductase
+rxn14359_c0,L-methionine methanethiol-lyase
+rxn14381_c0,ceramide:phosphatidylcholine cholinephosphotransferase
+rxn14382_c0,L-methionine:2-oxo-acid aminotransferase
+rxn15003_c0,sucrose:sucrose 1'-beta-D-fructosyltransferase
+rxn15004_c0,sucrose:sucrose 1'-beta-D-fructosyltransferase
+rxn15020_c0,(R)-Lactate:ferricytochrome-c-553 2-oxidoreductase
+rxn15021_c0,pyruvate:pyruvate acetaldehydetransferase (decarboxylating)
+rxn15022_c0,Isocitrate:NADP+ oxidoreductase (decarboxylating)
+rxn15023_c0,Isocitrate:NADP+ oxidoreductase (decarboxylating)
+rxn15044_c0,D-4-Hydroxy-2-oxoglutarate glyoxylate-lyase
+rxn15056_c0,Isocitrate:NAD+ oxidoreductase (decarboxylating)
+rxn15057_c0,Isocitrate:NAD+ oxidoreductase (decarboxylating)
+rxn15061_c0,D-glucosamine-6-phosphate aminohydrolase (ketol isomerizing)
+rxn15062_c0,UDP-glucose:D-fructose-6-phosphate 2-alpha-D-glucosyltransferase
+rxn15063_c0,CTP:D-fructose-6-phosphate 1-phosphotransferase
+rxn15064_c0,L-glutamine:D-fructose-6-phosphate isomerase (deaminating)
+rxn15065_c0,UTP:D-fructose-6-phosphate 1-phosphotransferase
+rxn15066_c0,ITP:D-fructose-6-phosphate 1-phosphotransferase
+rxn15070_c0,D-Sorbitol 6-phosphate:NADP+ 1-oxidoreductase
+rxn15094_c0,(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase (CoA-propanoylating)
+rxn15108_c0,ATP:D-ribose-5-phosphate diphosphotransferase
+rxn15114_c0,D-ribose-5-phosphate aldose-ketose-isomerase
+rxn15115_c0,"D-Ribose 1,5-phosphomutase"
+rxn15116_c0,"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)"
+rxn15118_c0,Uridine ribohydrolase
+rxn15122_c0,galactitol:NAD+ 1-oxidoreductase
+rxn15123_c0,galactitol:NAD+ 1-oxidoreductase
+rxn15126_c0,galactitol:NADP+ 1-oxidoreductase
+rxn15127_c0,galactitol:NADP+ 1-oxidoreductase
+rxn15152_c0,R06093
+rxn15155_c0,ATP:N-acetyl-D-glucosamine 6-phosphotransferase
+rxn15162_c0,Adenosine ribohydrolase
+rxn15165_c0,N-ribosylnicotinamide ribohydrolase
+rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming)
+rxn15167_c0,L-serine hydro-lyase (adding homocysteine; L-cystathionine-forming)
+rxn15170_c0,Phosphatidylcholine 1-acylhydrolase
+rxn15171_c0,citrate hydroxymutase
+rxn15172_c0,citrate hydroxymutase
+rxn15189_c0,xylitol:NADP+ oxidoreductase
+rxn15190_c0,xylitol:NADP+ oxidoreductase
+rxn15212_c0,L-Gulonate:NADP+ 6-oxidoreductase
+rxn15213_c0,D-glucuronate aldose-ketose-isomerase
+rxn15219_c0,ATP:D-ribulose 5-phosphotransferase
+rxn15227_c0,D-arabinose aldose-ketose-isomerase
+rxn15228_c0,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+rxn15229_c0,Guanosine ribohydrolase
+rxn15238_c0,L-Arabitol:NAD+ 1-oxidoreductase
+rxn15239_c0,L-Arabitol:NAD+ 1-oxidoreductase
+rxn15240_c0,L-Arabitol:NADP+ 1-oxidoreductase
+rxn15241_c0,L-Arabitol:NADP+ 1-oxidoreductase
+rxn15248_c0,Inosine ribohydrolase
+rxn15249_c0,ATP:alpha-D-glucose 6-phosphotransferase
+rxn15254_c0,"phosphoenolpyruvate:N-acetyl-D-mannosamine C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn15255_c0,"phosphoenolpyruvate:N-acetyl-D-mannosamine C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming)"
+rxn15266_c0,N-Acetylneuraminate pyruvate-lyase (N-acetyl-D-mannosamine-forming)
+rxn15267_c0,N-Acetylneuraminate pyruvate-lyase (N-acetyl-D-mannosamine-forming)
+rxn15271_c0,beta-D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+rxn15276_c0,Ribitol:NAD+ 2-oxidoreductase
+rxn15278_c0,Isocitrate:NADP+ oxidoreductase
+rxn15279_c0,Isocitrate:NADP+ oxidoreductase
+rxn15280_c0,isocitrate hydro-lyase (cis-aconitate-forming)
+rxn15281_c0,isocitrate hydro-lyase (cis-aconitate-forming)
+rxn15296_c0,6-Phospho-D-gluconate hydro-lyase(2-dehydro-3-deoxy-6-phospho-D-gluconate-forming)
+rxn15301_c0,UDPglucose:sterol 3-O-beta-D-glucosyltransferase
+rxn15302_c0,Phosphatidylcholine:sterol O-acyltransferase
+rxn15307_c0,Xanthosine ribohydrolase
+rxn15319_c0,N-D-ribosylpurine ribohydrolase
+rxn15341_c0,Lactaldehyde:NAD+ 1-oxidoreductase
+rxn15345_c0,"Propane-1,2-diol:NAD+ 1-oxidoreductase"
+rxn15346_c0,"Propane-1,2-diol:NAD+ 1-oxidoreductase"
+rxn15350_c0,Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase
+rxn15364_c0,alpha-D-Glucose 6-phosphate ketol-isomerase
+rxn15370_c0,Cysteine hydrogen-sulfide-lyase (adding HCN)
+rxn15373_c0,(R)-Acetoin:NAD+ oxidoreductase
+rxn15383_c0,(S)-2-Hydroxy-2-methyl-3-oxobutanoate carboxy-lyase
+rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine)
+rxn15414_c0,D-galactosyl-N-acylsphingosine galactohydrolase
+rxn15417_c0,R06152
+rxn15430_c0,ATP:sedoheptulose 1-phosphotransferase
+rxn15466_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
+rxn15467_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase"
+rxn15489_c0,3-Ureidoisobutyrate amidohydrolase
+rxn15490_c0,3-Ureidoisobutyrate amidohydrolase
+rxn15491_c0,(S)-2-Acetolactate pyruvate-lyase (carboxylating)
+rxn15493_c0,ATP:D-fructose-6-phosphate 1-phosphotransferase
+rxn15494_c0,"beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase"
+rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase
+rxn15507_c0,L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase
+rxn15511_c0,(S)-2-Acetolactate methylmutase
+rxn15535_c0,Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase
+rxn15630_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+rxn15640_c0,D-Sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
+rxn15658_c0,mannitol:NAD+ 1-oxidoreductase
+rxn15659_c0,mannitol:NAD+ 1-oxidoreductase
+rxn15660_c0,lactaldehyde:NADP+ oxidoreductase
+rxn15668_c0,1D-myo-inositol-3-phosphate lyase (isomerizing)
+rxn15669_c0,1D-myo-inositol-3-phosphate lyase (isomerizing)
+rxn15670_c0,"flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)"
+rxn15694_c0,enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+rxn15695_c0,3-sulfolactate bisulfite-lyase
+rxn15726_c0,R08198
+rxn15766_c0,beta-D-mannoside mannohydrolase
+rxn15776_c0,R08677
+rxn15783_c0,R08774
+rxn15833_c0,2-dehydro-L-idonate:NADP+ 5-oxidoreductase
+rxn15874_c0,"dTDP-6-deoxy-L-mannose:NADP+ 4-oxidoreductase (3,5-epimerizing)"
+rxn15947_c0,carboxyspermidine:NADP+ oxidoreductase
+rxn15949_c0,carboxyspermidine carboxy-lyase (spermidine-forming)
+rxn15961_c0,"hydrogen:2-(2,3-dihydropentaprenyloxy)phenazine oxidoreductase"
+rxn15964_c0,"5,10-methylenetetrahydromethanopterin:glycine hydroxymethyltransferase"
+rxn15991_c0,S-(hydroxymethyl)mycothiol:NAD+ oxidoreductase
+rxn16048_c0,R09186
+rxn16086_c0,maleylacetate reductase
+rxn16108_c0,"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 4 isopentenyl units)"
+rxn16149_c0,3-hydroxypropionate:NADP+ oxidoreductase
+rxn16206_c0,5-methyltetrahydropteroyltri-L-glutamate:L-selenohomocysteine Se-methyltransferase
+rxn16213_c0,methaneselenol:NADP+ oxidoreductase
+rxn16218_c0,(R)-4-phosphopantoate:beta-alanine ligase (AMP-forming)
+rxn16233_c0,4-hydroxyphenylpyruvate:5-amino-6-(D-ribitylamino)uracil 4-hydroxybenzyltransferase
+rxn16613_c0,"D-glycero-alpha-D-manno-heptose 1,7-bisphosphate 7-phosphohydrolase"
+rxn16823_c0,2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase
+rxn18552_c0,ATP phosphohydrolase (disaccharide-importing)
+rxn18917_c0,GriP mutase
+rxn19029_c0,"2,3-dihydroxy-3-methylvalerate dehydrogenase (isomerizing)"
+rxn19040_c0,aconitase
+rxn19124_c0,fatty aldehyde dehydrogenase
+rxn19870_c0,threonine aldolase
+rxn19872_c0,dimethylallyltranstransferase
+rxn19956_c0,(E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase
+rxn19957_c0,(E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase
+rxn20643_c0,thiC (gene name)
+rxn21189_c0,"protocatechuate 2,3-dioxygenase"
+rxn21190_c0,5-carboxy-2-hydroxymuconate-6-semialdehyde decarboxylase
+rxn21246_c0,RXN-10945.c
+rxn23042_c0,thiamine-phosphate diphosphorylase
+rxn23045_c0,glycine oxidase
+rxn23106_c0,lithocholate dehydrogenase
+rxn24116_c0,RXN-5802.ce
+rxn25123_c0,alkaline phosphatase
+rxn25456_c0,RXN-9220.c
+rxn25797_c0,RXN-9739.c
+rxn25837_c0,RXN-9787.c
+rxn25838_c0,RXN-9788.c
+rxn25839_c0,ATP:[ThiS] adenylyltransferase
+rxn25963_c0,N-acetylneuraminate-9-phosphatase
+rxn26477_c0,(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase
+rxn26481_c0,(E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase
+rxn27000_c0,RXN6666-4.m
+rxn27259_c0,sulfate adenylyltransferase
+rxn27289_c0,thiazole synthase
+rxn27351_c0,TRANS-RXN-193.cd
+rxn27362_c0,oxalate formate antiporter
+rxn27497_c0,3-carboxy-3-hydroxy-4-methylpentanoate 3-methyl-2-oxobutanoate-lyase (CoA-acetylating)
+rxn27536_c0,D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+rxn27591_c0,3.6.3.41-RXN.ce
+rxn27664_c0,Acetolactate synthase
+rxn27727_c0,"coupling factors (F0, F1 and CF1)"
+rxn27920_c0,GSAAMINOTRANS-RXN.d
+rxn27955_c0,isocitrate dehydrogenase (NAD+)
+rxn27984_c0,MALONYL-ACPDECARBOX-RXN.d
+rxn28083_c0,glutamate-prephenate aminotransferase
+rxn28889_c0,RXN6666-5.m
+rxn28981_c0,SEDOBISALDOL-RXN.d
+rxn29257_c0,TRANS-RXNBWI-115525.ce.maizeexp.CA+2_CA+2
+rxn29958_c0,Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)
+rxn29959_c0,Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)
+rxn30094_c0,3-oxoacyl-[acyl-carrier-protein] synthase homolog
+rxn30216_c0,NAD(+) transport (Peroxisomal membrane)
+rxn30452_c0,acetate transport in via protonsodium symport
+rxn31154_c0,R_Ex16
+rxn31225_c0,"3-oxoacyl-[acyl-carrier-protein] synthase III, chloroplast / beta-ketoacyl-ACP synthase III / 3-ketoacyl-acyl carrier protein synthase III (KAS III)"
+rxn31254_c0,"3-oxoacyl-[acyl-carrier protein] reductase, chloroplast / 3-ketoacyl-acyl carrier protein reductase"
+rxn31278_c0,"glutamine synthetase, putative"
+rxn31279_c0,"glutamine synthetase, putative"
+rxn31312_c0,2-oxoglutarate synthase
+rxn31321_c0,crotonoyl-[acyl-carrier-protein] hydratase
+rxn31335_c0,"fructose-bisphosphate aldolase, putative"
+rxn31363_c0,"aldehyde dehydrogenase, putative / antiquitin, putative"
+rxn31980_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase"
+rxn32027_c0,D-arabinose-5-phosphate aldose-ketose-isomerase
+rxn32060_c0,(S)-2-Acetolactate pyruvate-lyase (carboxylating)
+rxn32133_c0,Glutathione reductase (NADPH)
+rxn32365_c0,KDO-8PSYNTH-RXN.d
+rxn32380_c0,diphosphate 5-phospho-alpha-D-ribosyltransferase
+rxn32434_c0,"5,6,7,8-Tetrahydrofolate:NAD+ oxidoreductase"
+rxn32446_c0,Phosphoglucosamine mutase
+rxn32587_c0,isocitrate hydro-lyase (cis-aconitate-forming)
+rxn32623_c0,"ditrans,hexacis-nonaprenyl-diphosphate:isopentenyl-diphosphate"
+rxn32754_c0,PHOSMANMUT-RXN.d
+rxn32775_c0,dGTP:pyruvate 2-O-phosphotransferase
+rxn32777_c0,Methylenetetrahydrofolate dehydrogenase (NADP+)
+rxn32808_c0,"ditrans,pentacis-octaprenyl-diphosphate:isopentenyl-diphosphate"
+rxn32907_c0,O-succinylhomoserine (thiol)-lyase
+rxn33047_c0,"ditrans,tetracis-heptaprenyl-diphosphate:isopentenyl-diphosphate"
+rxn33160_c0,3-Butyn-1-al:NAD+ oxidoreductase
+rxn33164_c0,Acetolactate synthase
+rxn33320_c0,"ditrans,tricis-hexaprenyl-diphosphate:isopentenyl-diphosphate"
+rxn33325_c0,trans-Oct-2-enoyl-CoA reductase
+rxn33365_c0,XMP:pyrophosphate phosphoribosyltransferase
+rxn33391_c0,2-Acetolactate pyruvate-lyase (carboxylating)
+rxn33576_c0,"ditrans,dicis-pentaprenyl-diphosphate:isopentenyl-diphosphate"
+rxn33589_c0,Fructose-bisphosphatase
+rxn33653_c0,myo-inositol-hexakisphosphate 4-phosphohydrolase
+rxn33674_c0,Di-trans-poly-cis-decaprenylcistransferase
+rxn33724_c0,-
+rxn33812_c0,-
+rxn33813_c0,NAD+ transport (Mitochondrial/Plastidial membrane)
+rxn33817_c0,-
+rxn33834_c0,"trans,trans,cis-geranylgeranyl-diphosphate:isopentenyl-diphosphate"
+rxn33862_c0,Ribulose Phosphate 3 Epimerase
+rxn33927_c0,myo-Inositol Synthesis
+rxn34241_c0,L-malate transport to chloroplast by sodium-ion symport
+rxn34397_c0,"Pi:Na+ symporter, chloroplast"
+rxn34724_c0,RXN-9548.d
+rxn37863_c0,Galactowaldenase
+rxn38002_c0,6PFRUCTPHOS-RXN.e
+rxn38081_c0,DHOdehase
+rxn38151_c0,HOMOSERKIN-RXN.e
+rxn38189_c0,NUCLEOSIDE-TRIPHOSPHATASE-RXN.d.maizeexp.TDP_TTP
+rxn38254_c0,phenylalanine transaminase
+rxn38273_c0,PRPPSYN-RXN.e
+rxn38279_c0,Nicotinamidase
+rxn38529_c0,ubiquinol oxidase
+rxn38862_c0,ALDEHYDE DEHYDROGENASE
+rxn38971_c0,RXN-6903.m.chlamyexp.NADP_NADPH
+rxn38972_c0,RXN-6903.m.chlamyexp.NAD_NADH
+rxn39175_c0,TrnRxn_cpd03662
+rxn39250_c0,5-deoxyadenosine phosphorylase
+rxn41427_c0,L-aspartate semialdehyde sulfurtransferase
+rxn41668_c0,5-hydroxybenzimidazole synthase
+rxn42355_c0,rxn42355_c0
+rxn43262_c0,Deoxycholate transporter
+rxn43368_c0,rxn43368_c0
+rxn45543_c0,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase
+rxn90005_c0,ATP phosphohydrolase (lbeta-lactose importing)
+rxn90009_c0,Lacto-N-biose ABC transporter
+rxn90017_c0,2-iminoacetate synthase
+rxn90019_c0,folate ABC transporter
+rxn90022_c0,Acetone diffusion
+rxn90023_c0,rxn90023_c0
+rxn90033_c0,"beta-amylase (exo, acting on 4 maltose residues at non-reducing end)"
+rxn90037_c0,alpha or beta glcosidase (acting on maltoundecaose)
+rxn90039_c0,"gamma-amylase (exo, acting on maltotridecaose)"
+rxn90043_c0,"Pullulanase (exo, acting on n27-Starch with 3 alpha1-4 bonds)"
+rxn90044_c0,"Pullulanase (exo, acting on n19-Starch with 3 alpha1-4 bonds)"
+rxn90058_c0,Coenzyme B:coenzyme M:methanophenazine oxidoreductase (chemiosmosis)
+rxn90059_c0,"hydrogen:2-(2,3-dihydropentaprenyloxy)phenazine oxidoreductase  (chemiosmosis)"
+rxn90070_c0,formate dehydrogenase (ferredoxin)
+rxn90071_c0,methylene tetrahydrofolate reductase (bifurcating)
+rxn90072_c0,formate dehydrogenase (hydrogenase)
+rxn90086_c0,Taxofolin isomerase
+rxn90087_c0,Alphitonine decarboxylase (oxidative)
+rxn90112_c0,Extracellular cellulose degradation
+rxn90113_c0,Extracellular xylan degradation
+rxn90114_c0,Extracellular xylooligosaccharide degradation
+rxn90115_c0,asparaginyl-tRNA synthase (glutamine-hydrolysing)
