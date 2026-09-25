@@ -117,7 +117,7 @@ def compute_stats(df):
 # Figure 4 — 2-panel bar chart (final approved styling)
 # ============================================================
 def annotate(ax, sub, row):
-    """Bracket + significance stars + p/d annotation."""
+    """Bracket with the two-sided P value."""
     ymax = sub['mu'].max()
     ymin = sub['mu'].min()
     yrange = ymax - ymin if ymax > ymin else 0.01
@@ -126,15 +126,11 @@ def annotate(ax, sub, row):
             [bracket_y, bracket_y + yrange * 0.04,
              bracket_y + yrange * 0.04, bracket_y],
             color='black', lw=1)
-    sig = row['significance']
-    # 'ns' is plain and small; asterisks stay bold and larger
-    ax.text(0.5, bracket_y + yrange * 0.07, sig, ha='center', va='bottom',
-            fontsize=8 if sig == 'ns' else 11,
-            fontweight='normal' if sig == 'ns' else 'bold')
-    ax.text(0.5, bracket_y + yrange * 0.55,
-            f"two-sided\nP = {row['p_value_twosided']:.3f}",
-            ha='center', va='bottom', fontsize=8)
-    ax.set_ylim(bottom=0.27, top=ymax + yrange * 2.5)
+    # P value only; the statistical test is stated in the figure legend
+    ax.text(0.5, bracket_y + yrange * 0.10,
+            f"P = {row['p_value_twosided']:.3f}",
+            ha='center', va='bottom', fontsize=9)
+    ax.set_ylim(bottom=0.27, top=ymax + yrange * 2.2)
 
 
 def plot_figure4(df, stat_df):
