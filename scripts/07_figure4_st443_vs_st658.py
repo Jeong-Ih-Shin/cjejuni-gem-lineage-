@@ -1,5 +1,5 @@
 """
-Step 11: Focused ST-443 vs ST-658 comparison on human gut diet media (Figure 4).
+Step 11: Focused CC-443 vs CC-658 comparison on human gut diet media (Figure 4).
 
 Inputs:
     intermediate/human_gut_simulation_results.csv  (from step 07)
@@ -9,10 +9,12 @@ Outputs:
     output/figures/Figure4_st443_vs_st658.{png, svg}
 
 Methods:
-    Compare lineage-mean mu between ST-443 (n = 7) and ST-658 (n = 4) using
-    a one-sided Mann-Whitney U test (a priori hypothesis: ST-443 < ST-658,
-    based on ST-443's pantothenate/CoA biosynthesis deficit identified in
-    step 02). Effect size is quantified by Cohen's d.
+    Compare lineage-mean mu between CC-443 (n = 7) and CC-658 (n = 4) using
+    a two-sided Mann-Whitney U test. The direction of the comparison was
+    suggested by the preceding reaction-level results rather than specified
+    in advance, so no one-sided test is used. Cohen's d is reported in the
+    statistics table only; within-lineage variance is near zero, so the
+    effect-size estimate is unstable and is not annotated on the figure.
 
     Two diet media (from step 07):
       - Western diet
@@ -90,7 +92,7 @@ def compute_stats(df):
     for col, label in MEDIA:
         x443 = df[df['CC'] == 'ST-443 complex'][col].dropna().values
         x658 = df[df['CC'] == 'ST-658 complex'][col].dropna().values
-        u, p = scipy_stats.mannwhitneyu(x443, x658, alternative='less')
+        u, p = scipy_stats.mannwhitneyu(x443, x658, alternative='two-sided')
         d = cohen_d(x443, x658)
         rows.append({
             'medium':           label,
@@ -101,7 +103,7 @@ def compute_stats(df):
             'st658_mean':       float(np.mean(x658)),
             'st658_sd':         float(np.std(x658, ddof=1)) if len(x658) > 1 else 0.0,
             'mannwhitney_u':    float(u),
-            'p_value_onesided': float(p),
+            'p_value_twosided': float(p),
             'cohens_d':         float(d),
             'significance':     stars(p),
         })
@@ -127,7 +129,7 @@ def annotate(ax, sub, row):
     ax.text(0.5, bracket_y + yrange * 0.07, row['significance'],
             ha='center', va='bottom', fontsize=11, fontweight='bold')
     ax.text(0.5, bracket_y + yrange * 0.55,
-            f"p = {row['p_value_onesided']:.3f}\nd = {row['cohens_d']:+.2f}",
+            f"two-sided\nP = {row['p_value_twosided']:.3f}",
             ha='center', va='bottom', fontsize=8)
     ax.set_ylim(bottom=0.27, top=ymax + yrange * 2.5)
 

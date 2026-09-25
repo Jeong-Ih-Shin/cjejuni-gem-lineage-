@@ -31,6 +31,25 @@ def cc_label(cc_full):
     return cc_full.replace(" complex", "").replace("ST-", "CC-")
 
 
+def bootstrap_ci(in_mat, out_mat, n_boot=2000, seed=42):
+    """Isolate-level bootstrap 95% CI for mean within-/between-CC Euclidean distance."""
+    rng = np.random.default_rng(seed)
+    ws, bs = [], []
+    n_in, n_out = len(in_mat), len(out_mat)
+    for _ in range(n_boot):
+        i_idx = rng.integers(0, n_in, n_in)
+        o_idx = rng.integers(0, n_out, n_out)
+        if len(np.unique(i_idx)) < 2:
+            continue
+        bi = in_mat[i_idx]; bo = out_mat[o_idx]
+        ws.append(pdist(bi).mean())
+        bs.append(cdist(bi, bo).mean())
+    if not ws:
+        return (np.nan,) * 4
+    return (np.percentile(ws, 2.5), np.percentile(ws, 97.5),
+            np.percentile(bs, 2.5), np.percentile(bs, 97.5))
+
+
 def main():
     wb = load_workbook(DATA_DIR / 'metadata.xlsx', read_only=True)
     ws = wb['Cluster_assignments']
@@ -111,13 +130,21 @@ def main():
             continue
         within = pdist(in_cc).mean()
         between = cdist(in_cc, out_cc).mean()
+        wlo, whi, blo, bhi = bootstrap_ci(in_cc, out_cc)
         per_cc.append({'cc': f'{cc_label(c)} (n={cc_counts[c]})',
-                       'within': within, 'between': between, 'n': cc_counts[c]})
+                       'within': within, 'between': between, 'n': cc_counts[c],
+                       'w_lo': wlo, 'w_hi': whi, 'b_lo': blo, 'b_hi': bhi})
     per_cc_df = pd.DataFrame(per_cc).sort_values('n', ascending=True)
     y_pos = np.arange(len(per_cc_df))
+    w_err = np.vstack([per_cc_df['within'] - per_cc_df['w_lo'],
+                       per_cc_df['w_hi'] - per_cc_df['within']])
+    b_err = np.vstack([per_cc_df['between'] - per_cc_df['b_lo'],
+                       per_cc_df['b_hi'] - per_cc_df['between']])
     ax.barh(y_pos - 0.20, per_cc_df['within'], 0.38, color=HIGHLIGHT,
+            xerr=w_err, error_kw=dict(ecolor=SEM['text'], lw=0.8, capsize=2),
             label='Within-CC mean', edgecolor='white', linewidth=1.2)
     ax.barh(y_pos + 0.20, per_cc_df['between'], 0.38, color=SEM['neutral'],
+            xerr=b_err, error_kw=dict(ecolor=SEM['text'], lw=0.8, capsize=2),
             label='Between-CC mean', edgecolor='white', linewidth=1.2)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(per_cc_df['cc'])
@@ -126,7 +153,7 @@ def main():
     ax.legend(frameon=False, loc='lower center', bbox_to_anchor=(0.5, 1.02),
               ncol=2, fontsize=7)
     ax.grid(axis='x', alpha=0.5, color=SEM['grid'], linewidth=0.5)
-    ax.set_xlim(0, max(per_cc_df['between'].max(), per_cc_df['within'].max()) * 1.10)
+    ax.set_xlim(0, max(per_cc_df['b_hi'].max(), per_cc_df['w_hi'].max()) * 1.10)
 
     # B — heatmap  [now axes[1], right]
     ax = axes[1]
