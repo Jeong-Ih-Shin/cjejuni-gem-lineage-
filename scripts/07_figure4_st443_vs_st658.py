@@ -126,8 +126,11 @@ def annotate(ax, sub, row):
             [bracket_y, bracket_y + yrange * 0.04,
              bracket_y + yrange * 0.04, bracket_y],
             color='black', lw=1)
-    ax.text(0.5, bracket_y + yrange * 0.07, row['significance'],
-            ha='center', va='bottom', fontsize=11, fontweight='bold')
+    sig = row['significance']
+    # 'ns' is plain and small; asterisks stay bold and larger
+    ax.text(0.5, bracket_y + yrange * 0.07, sig, ha='center', va='bottom',
+            fontsize=8 if sig == 'ns' else 11,
+            fontweight='normal' if sig == 'ns' else 'bold')
     ax.text(0.5, bracket_y + yrange * 0.55,
             f"two-sided\nP = {row['p_value_twosided']:.3f}",
             ha='center', va='bottom', fontsize=8)
