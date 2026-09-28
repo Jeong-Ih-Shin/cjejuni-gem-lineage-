@@ -1,0 +1,3 @@
+analysis,n_isolates,partial_r_CC_given_quality,p_value,partial_r_quality_given_CC,CCs_with_within_lt_between
+all isolates,86,0.4524218157925478,0.0001,0.3898150626371815,9/9
+excluding cmccj_1273,85,0.4350383460568589,0.0001,0.3051043296709321,9/9
