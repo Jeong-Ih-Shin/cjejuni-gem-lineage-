@@ -128,9 +128,16 @@ def main():
         within = pdist(in_mat, metric='jaccard').mean()
         between = cdist(in_mat, out_mat, metric='jaccard').mean()
         wlo, whi, blo, bhi = bootstrap_ci(in_mat, out_mat, metric='jaccard')
+        # Per-isolate means: each isolate contributes one value, so the points
+        # show the distribution without treating pairwise distances as independent.
+        d_in = squareform(pdist(in_mat, metric='jaccard'))
+        np.fill_diagonal(d_in, np.nan)
+        w_pts = np.nanmean(d_in, axis=1)
+        b_pts = cdist(in_mat, out_mat, metric='jaccard').mean(axis=1)
         per_cc.append({'cc': f'{cc_label(this_cc)} (n={len(in_idx)})',
                        'within': within, 'between': between, 'n': len(in_idx),
-                       'w_lo': wlo, 'w_hi': whi, 'b_lo': blo, 'b_hi': bhi})
+                       'w_lo': wlo, 'w_hi': whi, 'b_lo': blo, 'b_hi': bhi,
+                       'w_pts': w_pts, 'b_pts': b_pts})
     per_cc_df = pd.DataFrame(per_cc).sort_values('n', ascending=True)
     y_pos = np.arange(len(per_cc_df))
     # Bootstrap percentile CIs need not bracket the point estimate exactly;
@@ -145,6 +152,14 @@ def main():
     ax.barh(y_pos + 0.20, per_cc_df['between'], 0.38, color=SEM['neutral'],
             xerr=b_err, error_kw=dict(ecolor=SEM['text'], lw=0.8, capsize=2),
             label='Between-CC mean', edgecolor='white', linewidth=1.2)
+    # Per-isolate values as points (one point per isolate)
+    rng = np.random.default_rng(0)
+    for k, (_, row) in enumerate(per_cc_df.iterrows()):
+        for pts, off in [(row['w_pts'], -0.20), (row['b_pts'], 0.20)]:
+            jitter = rng.uniform(-0.09, 0.09, len(pts))
+            ax.scatter(pts, np.full(len(pts), y_pos[k] + off) + jitter,
+                       s=5, color=SEM['text'], alpha=0.55, zorder=3,
+                       linewidths=0, clip_on=False)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(per_cc_df['cc'])
     ax.set_xlabel('Mean Jaccard distance')
@@ -152,7 +167,11 @@ def main():
     ax.legend(frameon=False, loc='lower center', bbox_to_anchor=(0.5, 1.02),
               ncol=2, fontsize=7)
     ax.grid(axis='x', alpha=0.5, color=SEM['grid'], linewidth=0.5)
-    ax.set_xlim(0, max(per_cc_df['b_hi'].max(), per_cc_df['w_hi'].max()) * 1.10)
+    # Include the per-isolate points as well as the CI ends when setting the range
+    _pt_max = max(float(np.max(v)) for col in ('w_pts', 'b_pts')
+                  for v in per_cc_df[col])
+    ax.set_xlim(0, max(per_cc_df['b_hi'].max(), per_cc_df['w_hi'].max(),
+                       _pt_max) * 1.08)
 
     # B — PCA  [now axes[1], right]
     ax = axes[1]
