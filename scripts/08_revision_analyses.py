@@ -42,7 +42,9 @@ import sys
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform, cdist
-from scipy.stats import spearmanr, rankdata, fisher_exact, mannwhitneyu
+from itertools import combinations
+
+from scipy.stats import spearmanr, rankdata, fisher_exact
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / 'data'
@@ -240,8 +242,52 @@ def enrichment(pa, in_ids, out_ids, min_pct_diff=50):
         rows.append({'reaction': col, 'pct_in': pct_in, 'pct_out': pct_out,
                      'pct_diff': diff, 'p_nominal': p})
     df = pd.DataFrame(rows)
-    df['fdr_bh'] = bh_fdr(df.p_nominal.values)   # correction across all reactions
+    # Benjamini-Hochberg correction is applied across every reaction tested,
+    # before the effect-size filter, so that the reported FDR reflects the full
+    # search rather than the pre-selected subset.
+    df['fdr_bh_all_tested'] = bh_fdr(df.p_nominal.values)
+    df.attrs['n_tested'] = len(df)
     return df[abs(df.pct_diff) >= min_pct_diff].copy()
+
+
+def pathway_summary(pa, cc_series, repo_root):
+    """Representative KEGG pathways among the FDR-significant reactions of each CC."""
+    from collections import Counter
+    ann = pd.read_csv(repo_root / 'intermediate' / 'all_reactions_annotations.csv')
+    r2p = {}
+    with open(repo_root / 'intermediate' / 'kegg_reaction_pathway.tsv') as fh:
+        for line in fh:
+            a, b = line.strip().split('\t')
+            r2p.setdefault(a.replace('rn:', ''), []).append(b.replace('path:', ''))
+    with open(repo_root / 'intermediate' / 'kegg_pathway_names.tsv') as fh:
+        pname = dict(l.strip().split('\t') for l in fh)
+    # very broad maps carry little functional meaning here
+    generic = {'map01100', 'map01110', 'map01120', 'map01200',
+               'map01230', 'map01250', 'map02010', 'map01240'}
+    rxn2paths = {}
+    for _, r in ann.dropna(subset=['kegg']).iterrows():
+        ps = [p for k in str(r['kegg']).split(';')
+              for p in r2p.get(k.strip(), []) if p not in generic]
+        if ps:
+            rxn2paths[r['reaction']] = ps
+
+    counts = cc_series.value_counts()
+    rows = []
+    for this_cc in counts[counts >= 2].index:
+        ins = cc_series[cc_series == this_cc].index
+        outs = cc_series[cc_series != this_cc].index
+        e = enrichment(pa, ins, outs)
+        sig = e[(e.p_nominal < 0.01) & (e.fdr_bh_all_tested < 0.05)]
+        for direction, part in [('depleted', sig[sig.pct_diff < 0]),
+                                ('enriched', sig[sig.pct_diff > 0])]:
+            cnt = Counter(p for r in part.reaction for p in rxn2paths.get(r, []))
+            top = '; '.join(f'{pname.get(p, p)} ({n})' for p, n in cnt.most_common(3))
+            rows.append({'CC': cc_label(this_cc), 'n': int(counts[this_cc]),
+                         'direction': direction, 'n_reactions': len(part),
+                         'top_pathways': top or '(no KEGG pathway annotation)'})
+    out = pd.DataFrame(rows)
+    out.to_csv(INTERMEDIATE_DIR / 'revision_cc_pathway_summary.csv', index=False)
+    return out
 
 
 def all_cc_summary(pa, cc_series):
@@ -252,7 +298,7 @@ def all_cc_summary(pa, cc_series):
         outs = cc_series[cc_series != this_cc].index
         e = enrichment(pa, ins, outs)
         nom = e[e.p_nominal < 0.01]
-        fdr = nom[nom.fdr_bh < 0.05]
+        fdr = nom[nom.fdr_bh_all_tested < 0.05]
         rows.append({'CC': cc_label(this_cc), 'n': int(counts[this_cc]),
                      'depleted_nominal': int((nom.pct_diff < 0).sum()),
                      'enriched_nominal': int((nom.pct_diff > 0).sum()),
@@ -273,6 +319,25 @@ def cohen_d(x, y):
     return (np.mean(x) - np.mean(y)) / s if s > 1e-12 else np.nan
 
 
+def exact_permutation_p(x, y, decimals=10):
+    """Two-sided exact permutation test on rank sums.
+
+    FBA predictions differ only at solver precision (about 1e-15), so values are
+    rounded before ranking; tied values receive the average rank. All possible
+    group assignments are enumerated, which is feasible at these sample sizes.
+    """
+    xr = np.round(x, decimals)
+    yr = np.round(y, decimals)
+    pooled = np.concatenate([xr, yr])
+    n, nx = len(pooled), len(xr)
+    ranks = rankdata(pooled)
+    obs_u = ranks[:nx].sum() - nx * (nx + 1) / 2
+    expected = nx * len(yr) / 2
+    us = np.array([ranks[list(idx)].sum() - nx * (nx + 1) / 2
+                   for idx in combinations(range(n), nx)])
+    return float(np.mean(np.abs(us - expected) >= abs(obs_u - expected) - 1e-12)), len(us)
+
+
 def growth_tests(sim, cc443, cc658, cc658_chicken):
     rows = []
     for col, label in [('mu_western_diet', 'Western diet'),
@@ -280,7 +345,7 @@ def growth_tests(sim, cc443, cc658, cc658_chicken):
         for g658, gl in [(cc658, 'all CC-658'), (cc658_chicken, 'CC-658 chicken only')]:
             x = sim[sim.strain.isin(cc443)][col].dropna().values
             y = sim[sim.strain.isin(g658)][col].dropna().values
-            _, p_two = mannwhitneyu(x, y, alternative='two-sided')
+            p_two, n_perm = exact_permutation_p(x, y)
             d = cohen_d(x, y)
             rng = np.random.default_rng(SEED)
             ds = []
@@ -295,9 +360,10 @@ def growth_tests(sim, cc443, cc658, cc658_chicken):
                          'mean_CC443': x.mean(), 'sd_CC443': x.std(ddof=1),
                          'mean_CC658': y.mean(),
                          'sd_CC658': y.std(ddof=1) if len(y) > 1 else 0.0,
-                         'p_two_sided': p_two, 'cohens_d': d,
+                         'p_exact_two_sided': p_two, 'n_permutations': n_perm, 'cohens_d': d,
                          'd_boot_lo': lo, 'd_boot_hi': hi,
-                         'boot_valid_frac': len(ds) / 10000})
+                         'boot_valid_frac': len(ds) / 10000,
+                         'boot_excluded_zero_sd_frac': 1 - len(ds) / 10000})
     out = pd.DataFrame(rows)
     out.to_csv(INTERMEDIATE_DIR / 'revision_growth_twosided.csv', index=False)
     return out
@@ -347,7 +413,8 @@ def main():
     wide = (phen[phen.timepoint == 24]
             .pivot_table(index='sample', columns='chemical', values='fc_trimmed')
             .reindex(columns=CHEMICALS).dropna())
-    z = (wide - wide.mean()) / wide.std()
+    # population SD (ddof=0), matching StandardScaler used in the figure scripts
+    z = (wide - wide.mean()) / wide.std(ddof=0)
     z_samples = [s for s in z.index if s in cc_map]
     invitro_ci = per_cc_bootstrap(z.loc[z_samples],
                                   pd.Series([cc_map[s] for s in z_samples],
@@ -385,12 +452,16 @@ def main():
     focal.to_csv(INTERMEDIATE_DIR / 'revision_reaction_enrichment_fdr.csv', index=False)
     print('\n[6] Focal-lineage reactions (nominal P < 0.01)')
     print(focal.groupby(['focal_CC', focal.pct_diff > 0])
-          .agg(n=('reaction', 'size'), n_fdr=('fdr_bh', lambda s: int((s < 0.05).sum())))
+          .agg(n=('reaction', 'size'), n_fdr=('fdr_bh_all_tested', lambda s: int((s < 0.05).sum())))
           .to_string())
 
     allcc = all_cc_summary(pa, cc_series)
     print('\n[6] All CCs')
     print(allcc.to_string(index=False))
+
+    paths = pathway_summary(pa, cc_series, REPO_ROOT)
+    print('\n[6] Representative KEGG pathways per CC')
+    print(paths.to_string(index=False))
 
     # 7. growth, two-sided
     sim = pd.read_csv(INTERMEDIATE_DIR / 'human_gut_simulation_results.csv')

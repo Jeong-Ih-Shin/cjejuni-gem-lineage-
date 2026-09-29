@@ -29,7 +29,10 @@ import matplotlib
 matplotlib.use("Agg")  # WSL2 / headless
 import matplotlib.pyplot as plt
 import seaborn as sns
+from itertools import combinations
+
 from scipy import stats as scipy_stats
+from scipy.stats import rankdata
 
 # ============================================================
 # Paths
@@ -87,12 +90,32 @@ def cohen_d(x, y):
     return (np.mean(x) - np.mean(y)) / s
 
 
+def exact_permutation_p(x, y, decimals=10):
+    """Two-sided exact permutation test on rank sums.
+
+    FBA predictions differ only at solver precision (about 1e-15), so values are
+    rounded before ranking and tied values receive the average rank. All possible
+    group assignments are enumerated, which is feasible at these sample sizes.
+    """
+    xr = np.round(x, decimals)
+    yr = np.round(y, decimals)
+    pooled = np.concatenate([xr, yr])
+    n, nx = len(pooled), len(xr)
+    ranks = rankdata(pooled)
+    obs_u = ranks[:nx].sum() - nx * (nx + 1) / 2
+    expected = nx * len(yr) / 2
+    us = np.array([ranks[list(idx)].sum() - nx * (nx + 1) / 2
+                   for idx in combinations(range(n), nx)])
+    return float(np.mean(np.abs(us - expected) >= abs(obs_u - expected) - 1e-12))
+
+
 def compute_stats(df):
     rows = []
     for col, label in MEDIA:
         x443 = df[df['CC'] == 'ST-443 complex'][col].dropna().values
         x658 = df[df['CC'] == 'ST-658 complex'][col].dropna().values
-        u, p = scipy_stats.mannwhitneyu(x443, x658, alternative='two-sided')
+        p = exact_permutation_p(x443, x658)
+        u = np.nan
         d = cohen_d(x443, x658)
         rows.append({
             'medium':           label,
@@ -102,8 +125,8 @@ def compute_stats(df):
             'st658_n':          len(x658),
             'st658_mean':       float(np.mean(x658)),
             'st658_sd':         float(np.std(x658, ddof=1)) if len(x658) > 1 else 0.0,
-            'mannwhitney_u':    float(u),
-            'p_value_twosided': float(p),
+            'test_statistic_u':    float(u),
+            'p_exact_twosided': float(p),
             'cohens_d':         float(d),
             'significance':     stars(p),
         })
@@ -117,7 +140,7 @@ def compute_stats(df):
 # Figure 4 — 2-panel bar chart (final approved styling)
 # ============================================================
 def annotate(ax, sub, row):
-    """Bracket with the two-sided P value."""
+    """Bracket with the two-sided exact P value."""
     ymax = sub['mu'].max()
     ymin = sub['mu'].min()
     yrange = ymax - ymin if ymax > ymin else 0.01
@@ -128,7 +151,7 @@ def annotate(ax, sub, row):
             color='black', lw=1)
     # P value only; the statistical test is stated in the figure legend
     ax.text(0.5, bracket_y + yrange * 0.10,
-            f"P = {row['p_value_twosided']:.3f}",
+            f"P = {row['p_exact_twosided']:.3f}",
             ha='center', va='bottom', fontsize=9)
     ax.set_ylim(bottom=0.27, top=ymax + yrange * 2.2)
 
